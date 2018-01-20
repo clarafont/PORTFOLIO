@@ -54,7 +54,7 @@ background-position: center;
 #fbsection1 {
 	background-color: #1455bc;
 	margin: 0 auto;
-min-height: 95vh;
+height: 95vh;
 
  position: relative;
 }
@@ -337,7 +337,7 @@ padding: 20px;
 
 	}
 
-	@media (max-width: 1150px) {
+	@media (max-width: 1024px) {
 		.paragraphe {
 			position: absolute;
 				top: 50%;
