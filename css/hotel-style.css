@@ -265,7 +265,7 @@ background-color: #fff;
 	margin: 0;
 	color: #fff;
 		width: 100%;
-
+font-size: 0.8em;
 	}
 
 	.paragraphe p {
@@ -286,6 +286,7 @@ background-color: #fff;
 	top: 50%;
 	transform: translateY(-50%);
 width: 100%;
+font-size: 0.8em;
 	}
 
 	.paragraphe3 p {
