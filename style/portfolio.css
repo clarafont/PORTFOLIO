@@ -299,7 +299,7 @@ max-width: 980px;
 }
 
 
-@media (max-width: 1150px) {
+@media all and (max-width: 900px) {
 
 .contenant a {
   padding: 60px;
