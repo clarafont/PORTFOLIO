@@ -7,6 +7,7 @@
 
 body {
 	background: #1455bc;
+
 	margin: 0;
 }
 
@@ -51,12 +52,14 @@ a:focus {
 
 .content {
 	text-align: center;
+
 }
 
 .content--full {
 	height: 100vh;
 	min-height: 600px;
 	overflow: hidden;
+
 }
 
 .flexy {
@@ -81,6 +84,10 @@ a:focus {
 	position: relative;
 	width: 100%;
 	height: calc(100vh - 5.5em);
+	background-image: url("fond-accueil2.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 .slide {
