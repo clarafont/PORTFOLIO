@@ -334,7 +334,7 @@ width: 100%;
 	margin: 0;
 	color: #fff;
 		width: 100%;
-
+font-size: 0.8em;
 	}
 
 	.paragraphe4 p {
@@ -447,7 +447,7 @@ width: 100%;
 		background-size: 150%;
 		background-repeat: no-repeat;
 		background-position: center;
-	background-color: #fff;
+	background-color: #dadada;
 		min-height: 95vh;
 	}
 }

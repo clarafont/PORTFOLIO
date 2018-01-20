@@ -240,14 +240,14 @@ max-width: 980px;
       grid-row: 1 /span 2;
     }
 
-#illustration .b {
+/*#illustration .b {
   background-image: url("images/despe2_case.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
         grid-column: 3;
         grid-row: 1 /span 2;
-      }
+      }*/
 
 #illustration .c {
   background-image: url("images/apacom_case.jpg");
@@ -299,10 +299,10 @@ max-width: 980px;
 }
 
 
-@media (max-width: 1150px) {
+@media (min-width: 600px) {
 
 .contenant a {
-  padding: 18px;
+  padding: 60px;
 }
   .accueil-portfolio {
     padding: 10px;
@@ -312,8 +312,8 @@ max-width: 980px;
   .contenant {
           display: grid;
       grid-gap: 20px;
-        grid-template-columns: 152px 152px;
-          grid-template-rows: 152px 152px 152px 152px 152px;
+        grid-template-columns: 300px;
+          grid-template-rows: 300px 300px 300px 300px 300px;
           background-color: #fff;
           color: #444;
   max-width: 980px;
@@ -323,8 +323,8 @@ max-width: 980px;
       .contenant2 {
               display: grid;
           grid-gap: 20px;
-            grid-template-columns: 152px 152px;
-              grid-template-rows: 152px 152px 152px 152px;
+            grid-template-columns: 300px;
+              grid-template-rows: 300px 300px 300px 300px;
               background-color: #fff;
               color: #444;
       max-width: 980px;
@@ -334,8 +334,8 @@ max-width: 980px;
       .contenantfin {
               display: grid;
           grid-gap: 20px;
-            grid-template-columns: 152px 152px 152px;
-              grid-template-rows: 152px 152px 152px;
+            grid-template-columns: 300px;
+              grid-template-rows: 300px 300px;
               background-color: #fff;
               color: #444;
       max-width: 980px;
@@ -345,15 +345,14 @@ max-width: 980px;
       .box {
           background-color: #444;
           color: #fff;
-          font-size: 90%;
-
+font-size: 150%;
       }
 
       .contenant2 a {
-        padding: 18px;
+        padding: 60px;
       }
       .contenantfin a {
-        padding: 18px;
+        padding: 60px;
       }
   #identité {
     padding: 20px;
@@ -374,6 +373,7 @@ max-width: 980px;
 }
 
 #identité .b {
+
   grid-column: 1 / span 2;
   grid-row: 1;
 }
@@ -403,19 +403,21 @@ max-width: 980px;
   grid-row: 5 ;
 }
 
-#illustration .a {
-  grid-column: 1 / span 2;
-  grid-row: 1 / span 2;
+#illustration .b {
+  grid-column: 1/ span 2;
+  grid-row: 3 ;
 }
 
-#illustration .b {
+#illustration .a {
+
   grid-column: 1;
   grid-row: 3 / span 2;
 }
 
 #illustration .c {
+
   grid-column: 2;
-  grid-row: 3;
+  grid-row: 3 / span 2;
 }
 
 #illustration .d {
