@@ -243,6 +243,9 @@ background-color: #fff;
 	}
 @media (max-width: 1150px) {
 
+p {
+	font-size: 0.8;
+}
 	.paragraphe {
 		position: absolute;
 		  top: 50%;
@@ -263,6 +266,11 @@ background-color: #fff;
 		text-align: center;
 		align-self: center;
 
+	}
+
+	#fbsection3 {
+		background-image: none;
+		min-height: 95%;
 	}
 
 	.paragraphe3 {
@@ -303,12 +311,32 @@ width: 100%;
 		align-self: center;
 
 	}
-	#fbsection4 {
-		background-image: url(../images/Triomemo/3-cartes-mobile.jpg);
-		background-size: cover;
+
+	#fbsection7 {
+		background-image: url(../images/apacom/alphabet.jpg);
+		background-size: 95%;
 		background-repeat: no-repeat;
 		background-position: center;
 	background-color: #fff;
-	min-height: 90vh;
+		min-height: 95vh;
 	}
+	#fbsection8 {
+		background-image: url(../images/apacom/contact.jpg);
+		background-size: 180%;
+		background-repeat: no-repeat;
+		background-position: center;
+	background-color: #4260a5;
+		min-height: 95vh;
+	}
+
+	#fbsection5 {
+		background-image: url(../images/apacom/edito.jpg);
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+	background-color: #4260a5;
+	min-height: 90vh;
+
+	}
+
 }

@@ -225,7 +225,9 @@ background-color: #fff;
 
 	}
 @media (max-width: 1150px) {
-
+p {
+	font-size: 0.8;
+}
 	.paragraphe {
 		position: absolute;
 		  top: 50%;
@@ -258,6 +260,7 @@ background-color: #fff;
 	top: 50%;
 	transform: translateY(-50%);
 width: 100%;
+opacity: 0;
 	}
 
 	.paragraphe3 p {

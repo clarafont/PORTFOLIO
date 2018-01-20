@@ -260,6 +260,7 @@ background-color: #fff;
 	top: 50%;
 	transform: translateY(-50%);
 width: 100%;
+opacity: 0;
 	}
 
 	.paragraphe3 p {

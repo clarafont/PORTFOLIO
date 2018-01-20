@@ -293,6 +293,14 @@ width: 100%;
 
 
 	}
+
+	#fbsection6 {
+		background-color: #816969;
+		margin: 0 auto;
+		position: relative;
+		min-height: 95vh;
+
+	}
 	.paragraphe4 {
 		position: absolute;
 		  top: 50%;
@@ -304,7 +312,7 @@ width: 100%;
 	margin: 0;
 	color: #fff;
 		width: 100%;
-
+font-size: 0.8em;
 	}
 
 	.paragraphe4 p {

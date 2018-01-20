@@ -280,7 +280,7 @@ height: 100%;
 	margin: 0;
 	color: #fff;
 		width: 100%;
-
+font-size: 0.8em;
 	}
 
 	.paragraphe p {
@@ -301,6 +301,7 @@ height: 100%;
 	top: 50%;
 	transform: translateY(-50%);
 width: 100%;
+font-size: 0.8em;
 	}
 
 	.paragraphe3 p {
@@ -319,7 +320,7 @@ width: 100%;
 	margin: 0;
 	color: #fff;
 		width: 100%;
-
+font-size: 0.8em;
 	}
 
 	.paragraphe4 p {
@@ -370,7 +371,7 @@ width: 100%;
 
 	#fbsection8 {
 		background-image: url(../images/lapg/affiche-mob.jpg);
-background-size: 200%;
+background-size: 180%;
 		background-repeat: no-repeat;
 		background-position: center;
 	background-color: #fff;

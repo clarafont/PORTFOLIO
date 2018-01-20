@@ -54,8 +54,9 @@ background-position: center;
 #fbsection1 {
 	background-color: #1455bc;
 	margin: 0 auto;
-  height: 80vh;
-  position: relative;
+
+
+ position: relative;
 }
 
 
@@ -71,6 +72,7 @@ background-position: center;
 	color: #fff;
 	width: 50%;
 	margin-left: 25%;
+
 }
 
 .paragraphe h2, h3{
@@ -379,5 +381,21 @@ padding: 20px;
 		  position: relative;
 
 		}
+
+		#fbsection1 {
+			background-color: #1455bc;
+			margin: 0 auto;
+min-height: 95%;
+
+		 position: relative;
+		}
+
+
+		.paragraphe {
+
+			font-size: 0.8em;
+
+		}
+
 
 	}
