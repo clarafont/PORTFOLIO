@@ -32,7 +32,6 @@ width: 70px;
 
 body {
 	background: #1455bc;
-cursor: none;
 	margin: 0;
 }
 
@@ -288,6 +287,12 @@ white-space: pre-wrap;
 .logo h4 {
 	line-height: 1.5;
 	padding-top: 10px;
+}
+
+.logo h2 {
+	font-size: 1.4em;
+	color:#ea9bab;
+	margin: 0;
 }
 
 .slide .mirror {
