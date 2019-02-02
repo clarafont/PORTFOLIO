@@ -22,81 +22,72 @@ margin: 0;
 
 
 
+/* header */
+
 header {
-max-height: 20vh;
-background-color: #fff;
+min-height: 15vh;
+position: fixed;
 text-align: center;
 top: 0;
 left: 0;
 right: 0;
-padding: 2em;
+padding: 1em;
 z-index: 5;
 color: #000000;
 }
 
 .logo_header {
-
+display: block;
+margin: 25px;
 }
 
 .logo_header img {
 width: 70px;
 }
 
-.menu2 a{
-  position: absolute;
-  display: block;
-  right:0;
-top: 0;
-margin: 20px;
-padding: 25px;
-background-image: url("images/menu-bleu-03.svg");
-background-size: contain;
-background-repeat: no-repeat;
-background-position: center;
-z-index: 6;
-}
-
-
-
-.menu2 a:hover{
-  background-image: url("images/menu-jaune-03.svg");
-
-}
-
-
 #fbsection1 {
 	background-color: #8a5ea4;
 	margin: 0 auto;
 	position: relative;
+	height: 95vh;
+	overflow: hidden;
 
 }
 
 
 .paragraphe {
 	position: absolute;
-	  top: 50%;
+	  top: 60%;
 	  transform: translateY(-50%);
-		padding: 450px;
-	text-align: center;
-	justify-content: center;
+	text-align: left;
 	display: block;
-margin: 0;
 color: #fff;
-	width: 100%;
+	width: 55%;
+	left: 22.5%;
 
+}
+
+.paragraphe h2 {
+margin: 0;
+margin-left: -40px;
+margin-bottom: 40px;
 }
 
 .paragraphe p {
 	display: flex;
-	justify-content: center;
-	text-align: center;
-	align-self: center;
 
+	text-align: left;
+
+}
+.legende {
+	margin-left: -20px;
+	margin-top: 20px;
 }
 
 
+
 #fbsection2 {
-	background-image: url(../images/Triomemo/logo.jpg);
+	background-image: url('../img/Triomemo/logo.jpg');
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -105,27 +96,35 @@ height: 90vh;
 }
 
 #fbsection3 {
-	background-image: url(../images/Triomemo/couleurs.jpg);
-	background-size: contain;
+	background-image: url('../img/Triomemo/couleurs.jpg');
+	background-size: 50%;
 	background-repeat: no-repeat;
 	background-color: #fff;
 	background-position: left;
 
 	position: relative;
+	height: 90vh;
 }
+
 
 .paragraphe3 {
 	position: absolute;
 	display: block;
-color: #000000;
+color: #312783;
 text-align: left;
-right: 0;
+right: 10%;
 padding: 70px;
 margin: 0 auto;
-top: 50%;
+top: 60%;
 transform: translateY(-50%);
-width: 50%;
+width: 40%;
 
+}
+
+.paragraphe3 h2 {
+	margin: 0;
+	margin-left: -40px;
+	margin-bottom: 20px;
 }
 
 .paragraphe3 p {
@@ -135,21 +134,21 @@ width: 50%;
 }
 
 #fbsection4 {
-	background-image: url(../images/Triomemo/3-cartes.jpg);
+	background-image: url('../img/Triomemo/3-cartes.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 background-color: #fff;
-min-height: 90vh;
+height: 90vh;
 }
 
 #fbsection5 {
-	background-image: url(../images/Triomemo/plateau.jpg);
+	background-image: url('../img/Triomemo/plateau.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 background-color: #fff;
-min-height: 90vh;
+height: 90vh;
 
 }
 
@@ -157,123 +156,117 @@ min-height: 90vh;
 	background-color: #8a5ea4;
 	margin: 0 auto;
 	position: relative;
-
+	height: 90vh
 }
 
-.paragraphe4 {
-	position: absolute;
-	  top: 50%;
-	  transform: translateY(-50%);
-		padding: 450px;
-	text-align: center;
-	justify-content: center;
-	display: block;
-margin: 0;
-color: #fff;
-	width: 100%;
 
-}
-
-.paragraphe4 p {
-	display: flex;
-	justify-content: center;
-	text-align: center;
-	align-self: center;
-
-}
 #fbsection7 {
-	background-image: url(../images/Triomemo/affiche_chaumont.jpg);
+	background-image: url('../img/Triomemo/affiche_chaumont.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 background-color: #fff;
-	min-height: 95vh;
+height: 95vh;
 }
 
 
-#fbsection8{
-	max-height: 10vh;
+@media (max-width: 1150px)  {
 
-}
-
-
-	/*footer*/
-	.pied {
-	max-height: 10vh;
-	  background-color: #fff;
-	  margin: 0;
-	  padding: 10px;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	position: relative;
-	text-align: left;
-	justify-content: center;
-
-	}
-
-	.pied a{
-
-	  background-image: url("images/fleche-haut-02.svg");
-	background-repeat: no-repeat;
-	background-size: contain;
-	  display: block;
-	padding: 20px;
-	background-position: center;
-	justify-content: center;
-
-	}
-
-	.pied a:hover {
-	  background-image: url("images/fleche-haut-hover-02.svg");
-
-	}
-
-	.pied p{
-	  font-size: 0.6em;
-
-	}
-@media (max-width: 1150px) {
-p {
-	font-size: 0.6em;
-}
 	.paragraphe {
 		position: absolute;
-		  top: 50%;
-		  transform: translateY(-50%);
+			top: 60%;
+			transform: translateY(-50%);
 			padding: 40px;
-		text-align: center;
+		text-align: left;
 		justify-content: center;
 		display: block;
 	margin: 0;
 	color: #fff;
 		width: 100%;
+		left: 0;
 
 	}
 
 	.paragraphe p {
 		display: flex;
 		justify-content: center;
-		text-align: center;
+		text-align: left;
 		align-self: center;
 
 	}
 
+	.legende {
+		margin-left: 0;
+	}
+	.paragraphe h2 {
+	margin-left: 0;
+	margin-bottom: 10px;
+
+	}
+
+	#fbsection2 {
+		background-image: url('../img/Triomemo/logo.jpg');
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+	background-color: #fff;
+	height: 40vh;
+	}
+
+	#fbsection3 {
+		background-image: url('../img/Triomemo/couleurs.jpg');
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-color: #fff;
+		background-position: top;
+		position: relative;
+		height: 70vh;
+	}
+
+
 	.paragraphe3 {
 		position: absolute;
+		top: 50%;
+		transform: translateY(0);
+		 bottom: 0;
+			padding: 30px;
+		text-align: right;
+	right: 0;
 		display: block;
-	color: #000000;
-	text-align: left;
-	padding: 40px;
-	margin: 0 auto;
-	top: 50%;
-	transform: translateY(-50%);
-width: 100%;
+	color: #8a5ea4;
+		width: 100%;
+
+	}
+
+	.paragraphe3 h2 {
+		margin: 0;
+		margin-left: 0;
+		margin-bottom: 10px;
 	}
 
 	.paragraphe3 p {
 		display: flex;
+		font-size: 0.8em;
 
+
+	}
+
+	#fbsection4 {
+		background-image: url('../img/Triomemo/3-cartes-mobile.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+	background-color: #fff;
+	height: 80vh;
+	}
+
+	#fbsection5 {
+		background-image: url('../img/Triomemo/plateau.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+	background-color: #fff;
+	height: 50vh;
 
 	}
 
@@ -281,37 +274,17 @@ width: 100%;
 		background-color: #8a5ea4;
 		margin: 0 auto;
 		position: relative;
-min-height: 95%;
+		height: 95vh
 	}
 
-	.paragraphe4 {
-		position: absolute;
-		  top: 50%;
-		  transform: translateY(-50%);
-			padding: 40px;
-		text-align: center;
-		justify-content: center;
-		display: block;
-	margin: 0;
-	color: #fff;
-		width: 100%;
-font-size: 0.8em;
 
-	}
-
-	.paragraphe4 p {
-		display: flex;
-		justify-content: center;
-		text-align: center;
-		align-self: center;
-	}
-	#fbsection4 {
-		background-image: url(../images/Triomemo/3-cartes-mobile.jpg);
+	#fbsection7 {
+		background-image: url('../img/Triomemo/affiche_chaumont.jpg');
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center;
 	background-color: #fff;
-	min-height: 90vh;
+	height: 95vh;
 	}
 
 

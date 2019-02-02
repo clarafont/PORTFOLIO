@@ -1,0 +1,450 @@
+/* Set all parents to full height */
+html, body,
+.container,
+.cbp-fbscroller,
+.cbp-fbscroller section {
+	height: 95%;
+margin: 0;
+}
+
+/* background-attachment does the trick */
+.cbp-fbscroller section {
+	position: relative;
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.no-touch .cbp-fbscroller section {
+	background-attachment: fixed;
+}
+
+
+
+/* header */
+
+header {
+min-height: 15vh;
+position: fixed;
+text-align: center;
+top: 0;
+left: 0;
+right: 0;
+padding: 1em;
+z-index: 5;
+color: #000000;
+}
+
+.logo_header {
+display: block;
+margin: 25px;
+}
+
+.logo_header img {
+width: 70px;
+}
+
+
+
+
+#fbsection1 {
+	background-color: #222f8f;
+	margin: 0 auto;
+	position: relative;
+overflow: hidden;
+height: 95vh;
+}
+
+
+.paragraphe {
+	position: absolute;
+	  top: 60%;
+	  transform: translateY(-50%);
+	text-align: left;
+	display: block;
+color: #fff;
+	width: 55%;
+	left: 22.5%;
+
+}
+
+.paragraphe h2 {
+margin: 0;
+margin-left: -40px;
+margin-bottom: 40px;
+}
+
+.paragraphe p {
+	display: flex;
+
+	text-align: left;
+
+}
+.legende {
+	margin-left: -20px;
+	margin-top: 20px;
+}
+
+
+#fbsection2 {
+	background-image: url('../img/Snippet/heading.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: left;
+background-color: #12122c;
+height: 90vh;
+}
+
+.paragraphe2 {
+	position: absolute;
+	  top: 50%;
+	  transform: translateY(-50%);
+		padding: 70px;
+	text-align: left;
+right: 0;
+	display: block;
+
+color: #fff;
+	width: 50%;
+
+}
+
+.paragraphe2 h2 {
+margin: 0;
+margin-left: -40px;
+margin-bottom: 20px;
+}
+
+.paragraphe2 p {
+	display: flex;
+
+	text-align: left;
+
+}
+
+
+#fbsection3 {
+
+	background-size: contain;
+	background-repeat: no-repeat;
+background-color: #1fc2be;
+/*background: linear-gradient(to top, #ffffff 20%, #60C7A0 80%, #ffffff 80%);*/
+	background-position: left;
+height: 95vh;
+	position: relative;
+}
+
+
+#fbsection4 {
+	background-image: url('../img/Snippet/fond-maquette-article.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+background-color: #00042C;
+height: 95vh;
+}
+
+#fbsection5 {
+background-color: #222f8f;
+height: 95vh;
+}
+.picto {
+	display: inline-flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	height: 100%;
+width: 50%;
+}
+.picto img {
+	width: 200px;
+	align-self: center;
+}
+
+
+#fbsection6 {
+background-image: url("../img/Snippet/fond-maquette.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+background-color: #00042C;
+	background-position: right;
+height: 95vh;
+	position: relative;
+}
+
+
+
+.paragraphe4 {
+	position: absolute;
+	  top: 50%;
+	  transform: translateY(-50%);
+		padding: 80px;
+	text-align: left;
+	display: block;
+margin: 0;
+color: #fff;
+	width: 38%;
+
+}
+
+.paragraphe4 h2 {
+
+}
+
+.paragraphe4 p {
+	display: flex;
+	justify-content: center;
+	text-align: left;
+	align-self: center;
+
+}
+#fbsection7 {
+
+background-color: #222f8f;
+height: 95vh;
+}
+
+.paragraphe5 {
+	position: absolute;
+	  top: 50%;
+	  transform: translateY(-50%);
+	text-align: left;
+	display: block;
+color: #fff;
+	width: 55%;
+	left: 22.5%;
+
+}
+.paragraphe5 h2 {
+margin: 0;
+margin-left: -40px;
+margin-bottom: 20px;
+}
+#fbsection8 {
+
+
+background-color: #1fc2be;
+height: 90vh;
+	position: relative;
+}
+
+
+#fbsection9 {
+background-image: url("../img/Snippet/fond-mobile.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+background-color: #00042C;
+	background-position: center;
+height: 95vh;
+	position: relative;
+}
+
+.paragraphe3 {
+	position: absolute;
+	  top: 25%;
+	  transform: translateY(-50%);
+		padding: 0px;
+	text-align: left;
+right: 0;
+	display: block;
+
+color: #fff;
+	width: 30%;
+
+}
+
+.paragraphe3 h2 {
+margin: 0;
+margin-left: 0;
+margin-bottom: 0;
+}
+
+@media (max-width: 1150px) {
+
+
+	#fbsection5 {
+	background-color: #222f8f;
+	height: 95vh;
+	}
+	.picto {
+		display: inline-flex;
+		flex-wrap: wrap;
+		justify-content: center;
+height: 50%;
+	width: 100%;
+	}
+	.picto img {
+		width: 100px;
+		align-self: center;
+	}
+
+.paragraphe h2 {
+	margin-left: 0px;
+	margin-bottom: 10px;
+}
+
+.paragraphe4 h2 {
+	margin-left: 0px;
+}
+
+
+#fbsection6 {
+	background-image: url("../img/Snippet/fond-maquette.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: top;
+background-color: #00042C;
+height: 80vh;
+}
+
+#fbsection9 {
+	background-image: url("../img/Snippet/fond-mobile.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+background-color: #00042C;
+height: 40vh;
+}
+
+.paragraphe4 {
+
+	position: absolute;
+	top: 50%;
+	transform: translateY(0);
+	 bottom: 0;
+		padding: 30px;
+	text-align: right;
+right: 0;
+	display: block;
+
+color: #fff;
+	width: 100%;
+}
+
+	.paragraphe {
+		position: absolute;
+			top: 60%;
+			transform: translateY(-50%);
+			padding: 40px;
+		text-align: left;
+		justify-content: center;
+		display: block;
+	margin: 0;
+	color: #fff;
+		width: 100%;
+		left: 0;
+	}
+
+	.paragraphe p {
+		display: flex;
+		justify-content: center;
+		text-align: left;
+		align-self: center;
+
+	}
+
+	.paragraphe3 {
+		position: absolute;
+		display: block;
+	color: #000000;
+	text-align: left;
+	padding: 40px;
+	margin: 0 auto;
+	top: 50%;
+	transform: translateY(-50%);
+width: 100%;
+opacity: 0;
+	}
+
+	.paragraphe3 p {
+		display: flex;
+
+
+	}
+
+
+
+	.paragraphe5 {
+		position: absolute;
+			top: 45%;
+			transform: translateY(-50%);
+			padding: 40px;
+		text-align: left;
+		justify-content: center;
+		display: block;
+	margin: 0;
+	color: #fff;
+		width: 100%;
+		left: 0;
+	}
+
+	.paragraphe5 h2 {
+		margin: 0;
+		margin-bottom: 10px;
+	}
+
+	#fbsection7 {
+
+		background-color: #222f8f;
+		height: 70vh;
+	}
+
+	#fbsection2 {
+		background-image: url('../img/Snippet/heading.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: left;
+	height: 35vh;
+	}
+
+	.paragraphe2 {
+		position: absolute;
+		 bottom: 0;
+		padding: 30px;
+		top: 60%;
+		text-align: right;
+	right: 0;
+		display: block;
+	color: #fff;
+		width: 100%;
+
+
+	}
+
+	.paragraphe2 h2 {
+	margin: 0;
+	margin-left: 0;
+	margin-bottom: 10px;
+	}
+
+	.paragraphe2 p {
+		display: flex;
+
+		text-align: left;
+
+	}
+	.legende {
+		margin-left: 0;
+	}
+
+	#fbsection4 {
+		background-image: url('../img/Snippet/fond-maquette-article.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+	background-color: #00042C;
+	height: 40vh;
+	}
+
+
+	#fbsection3 {
+
+		background-size: contain;
+		background-repeat: no-repeat;
+	background-color: #1fc2be;
+	/*background: linear-gradient(to top, #ffffff 20%, #60C7A0 80%, #ffffff 80%);*/
+		background-position: left;
+	height: 50vh;
+		position: relative;
+	}
+}

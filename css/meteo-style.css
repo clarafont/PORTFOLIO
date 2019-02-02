@@ -1,0 +1,398 @@
+/* Set all parents to full height */
+html, body,
+.container,
+.cbp-fbscroller,
+.cbp-fbscroller section {
+	height: 95%;
+margin: 0;
+}
+
+
+/* background-attachment does the trick */
+.cbp-fbscroller section {
+	position: relative;
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.no-touch .cbp-fbscroller section {
+	background-attachment: fixed;
+}
+
+
+
+/* header */
+
+header {
+min-height: 15vh;
+position: fixed;
+text-align: center;
+top: 0;
+left: 0;
+right: 0;
+padding: 1em;
+z-index: 5;
+color: #000000;
+}
+
+.logo_header {
+display: block;
+margin: 25px;
+}
+
+.logo_header img {
+width: 70px;
+}
+
+
+
+
+#fbsection1 {
+	background-color: #19192e;
+	margin: 0 auto;
+	position: relative;
+overflow: hidden;
+height: 95vh;
+}
+
+
+.paragraphe {
+	position: absolute;
+	  top: 60%;
+	  transform: translateY(-50%);
+		padding: 300px;
+	text-align: left;
+
+	display: block;
+
+color: #fff;
+	width: 100%;
+
+}
+
+.paragraphe h2 {
+margin: 0;
+margin-left: -40px;
+margin-bottom: 40px;
+}
+
+.paragraphe p {
+	display: flex;
+
+	text-align: left;
+
+}
+.legende {
+	margin-left: -20px;
+	margin-top: 20px;
+}
+
+
+#fbsection2 {
+	background-image: url('../img/Meteo/accueil-fond.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+background-color: #12122c;
+height: 90vh;
+}
+
+.paragraphe2 {
+	position: absolute;
+	  top: 60%;
+	  transform: translateY(-50%);
+		padding: 70px;
+	text-align: left;
+right: 0;
+	display: block;
+
+color: #fff;
+	width: 40%;
+
+}
+
+.paragraphe2 h2 {
+margin: 0;
+margin-left: -40px;
+margin-bottom: 20px;
+}
+
+.paragraphe2 p {
+	display: flex;
+
+	text-align: left;
+
+}
+
+
+#fbsection3 {
+
+	background-size: contain;
+	background-repeat: no-repeat;
+background-color: #60C7A0;
+/*background: linear-gradient(to top, #ffffff 20%, #60C7A0 80%, #ffffff 80%);*/
+	background-position: left;
+height: 95vh;
+	position: relative;
+}
+
+.paragraphe3 {
+	position: absolute;
+	display: block;
+color: #312783;
+text-align: left;
+right: 10%;
+padding: 70px;
+margin: 0 auto;
+top: 60%;
+transform: translateY(-50%);
+width: 40%;
+
+}
+
+.paragraphe3 h2 {
+	margin: 0;
+	margin-left: -40px;
+	margin-bottom: 20px;
+}
+
+.paragraphe3 p {
+	display: flex;
+
+
+}
+
+#fbsection4 {
+	background-image: url('../img/Meteo/data-fond.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: left;
+background-color: #fff;
+min-height: 90vh;
+}
+
+#fbsection6 {
+background-image: url("../img/Meteo/pictos.png");
+	background-size: 80%;
+	background-repeat: no-repeat;
+background-color: #60C7A0;
+/*background: linear-gradient(to top, #ffffff 20%, #60C7A0 80%, #ffffff 80%);*/
+	background-position: right;
+height: 95vh;
+	position: relative;
+}
+
+.paragraphe4 {
+	position: absolute;
+	  top: 50%;
+	  transform: translateY(-50%);
+		padding: 80px;
+	text-align: left;
+	display: block;
+margin: 0;
+color: #fff;
+	width: 38%;
+
+}
+
+.paragraphe4 h2 {
+
+}
+
+.paragraphe4 p {
+	display: flex;
+	justify-content: center;
+	text-align: left;
+	align-self: center;
+
+}
+#fbsection7 {
+
+background-color: #19192e;
+	min-height: 95vh;
+}
+
+.paragraphe5 {
+	position: absolute;
+	  top: 60%;
+	  transform: translateY(-50%);
+		padding-right: 40px;
+	text-align: left;
+right: 0;
+	display: block;
+color: #fff;
+	width: 50%;
+
+}
+.video {
+position: absolute;
+padding-left: 20%;
+top: 50%;
+ transform: translateY(-50%);
+
+}
+
+.video video {
+	height: 600px;
+
+}
+
+@media (max-width: 1150px) {
+
+.paragraphe h2 {
+	margin-left: 0px;
+
+}
+
+.paragraphe4 h2 {
+	margin-left: 0px;
+}
+
+
+#fbsection6 {
+background-image: url("../img/Meteo/pictos.png");
+	background-size: 120%;
+	background-repeat: no-repeat;
+background-color: #60C7A0;
+/*background: linear-gradient(to top, #ffffff 20%, #60C7A0 80%, #ffffff 80%);*/
+	background-position: top;
+height: 70vh;
+	position: relative;
+}
+
+.paragraphe4 {
+
+	position: absolute;
+	top: 50%;
+	transform: translateY(0);
+	 bottom: 0;
+		padding: 30px;
+	text-align: right;
+right: 0;
+	display: block;
+
+color: #fff;
+	width: 100%;
+}
+
+	.paragraphe {
+		position: absolute;
+		  top: 60%;
+		  transform: translateY(-50%);
+			padding: 40px;
+		text-align: left;
+		justify-content: center;
+		display: block;
+	margin: 0;
+	color: #fff;
+		width: 100%;
+font-size: 0.8em;
+
+	}
+
+	.paragraphe p {
+		display: flex;
+		justify-content: center;
+		text-align: left;
+		align-self: center;
+
+	}
+
+	.paragraphe3 {
+		position: absolute;
+		display: block;
+	color: #000000;
+	text-align: left;
+	padding: 40px;
+	margin: 0 auto;
+	top: 50%;
+	transform: translateY(-50%);
+width: 100%;
+opacity: 0;
+	}
+
+	.paragraphe3 p {
+		display: flex;
+
+
+	}
+
+
+	.video {
+	position: absolute;
+	padding-left: 10%;
+	top: 30%;
+
+	}
+	.video video {
+		height: 300px;
+
+	}
+
+	.paragraphe5 {
+		position: absolute;
+		bottom: 0;
+		 padding: 30px;
+		text-align: right;
+		right: 0;
+		display: block;
+	width: 100%;
+	}
+
+	#fbsection7 {
+
+		background-color: #19192e;
+		min-height: 80vh;
+	}
+
+	#fbsection2 {
+		background-image: url('../img/Meteo/accueil-fond.jpg');
+		background-size: 150%;
+		background-repeat: no-repeat;
+
+			background-position: top;
+	background-color: #12122c;
+	height: 90vh;
+	}
+
+	.paragraphe2 {
+		position: absolute;
+		 bottom: 0;
+			padding: 30px;
+		text-align: right;
+	right: 0;
+		display: block;
+
+	color: #fff;
+		width: 100%;
+
+	}
+
+	.paragraphe2 h2 {
+	margin: 0;
+	margin-left: 0;
+	margin-bottom: 10px;
+	}
+
+	.paragraphe2 p {
+		display: flex;
+
+		text-align: left;
+
+	}
+	.legende {
+		margin-left: 0;
+	}
+
+	#fbsection4 {
+		background-image: url('../img/Meteo/data-fond.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+	background-color: #fff;
+	min-height: 95vh;
+	}
+
+
+}

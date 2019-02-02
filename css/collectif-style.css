@@ -1,0 +1,316 @@
+/* Set all parents to full height */
+html, body,
+.container,
+.cbp-fbscroller,
+.cbp-fbscroller section {
+
+margin: 0;
+}
+
+
+/* background-attachment does the trick */
+.cbp-fbscroller section {
+	position: relative;
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.no-touch .cbp-fbscroller section {
+	background-attachment: fixed;
+}
+
+
+
+/* header */
+
+header {
+min-height: 15vh;
+position: fixed;
+text-align: center;
+top: 0;
+left: 0;
+right: 0;
+padding: 1em;
+z-index: 5;
+color: #000000;
+}
+
+.logo_header {
+display: block;
+margin: 25px;
+}
+
+.logo_header img {
+width: 70px;
+}
+
+
+
+
+#fbsection1 {
+	background-color: #7248C1;
+	margin: 0 auto;
+	position: relative;
+overflow: hidden;
+height: 95vh;
+}
+
+
+.paragraphe {
+	position: absolute;
+	  top: 60%;
+	  transform: translateY(-50%);
+	text-align: left;
+	display: block;
+color: #fff;
+	width: 55%;
+	left: 22.5%;
+
+}
+
+.paragraphe h2 {
+margin: 0;
+margin-left: -40px;
+margin-bottom: 40px;
+}
+
+.paragraphe p {
+	display: flex;
+
+	text-align: left;
+
+}
+.legende {
+	margin-left: -20px;
+	margin-top: 20px;
+}
+
+
+#fbsection2 {
+	background-image: url('../img/Collectif/image-collectif-1.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+background-color: #12122c;
+height: 95vh;
+}
+
+.paragraphe2 {
+	position: absolute;
+	  top: 70%;
+	  transform: translateY(-50%);
+		padding: 40px;
+	text-align: left;
+	display: block;
+color: #fff;
+	width: 30%;
+	right: 0;
+	margin-right: 120px;
+
+}
+
+.paragraphe2 h2 {
+margin: 0;
+font-size: 2em;
+}
+
+.paragraphe2 p {
+	display: flex;
+
+	text-align: left;
+
+}
+
+
+#fbsection3 {
+background-color: #e793bc;
+height: 95vh;
+	position: relative;
+}
+
+video {
+	width: 100%;
+	height: auto;
+}
+
+
+
+.video-container video {
+	position: absolute;
+top: 0 ;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+
+
+#fbsection4 {
+	background-image: url('../img/Collectif/typo-fond.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: right;
+background-color: #fff;
+height: 95vh;
+}
+
+#fbsection6 {
+background-color: #19192e;
+	background-position: right;
+height: 95vh;
+	position: relative;
+}
+
+
+#fbsection9 {
+
+background-color: #19192e;
+height: 95vh;
+}
+
+.paragraphe5 {
+	position: absolute;
+	  top: 60%;
+	  transform: translateY(-50%);
+		padding-right: 40px;
+	text-align: left;
+right: 0;
+	display: block;
+color: #fff;
+	width: 40%;
+
+}
+
+.paragraphe5 h2 {
+	font-size: 2em;
+	margin: 0;
+}
+
+#fbsection8 {
+
+	background-color: #19192e;
+	height: 95vh;
+}
+
+
+
+#fbsection7 {
+
+	background-color: #19192e;
+	min-height: 95vh;
+}
+
+.paragraphe a .legende {
+	color: #fff;
+}
+.paragraphe a:hover .legende  {
+	color: #FF3E7B;
+}
+
+@media (max-width: 1150px) {
+
+
+	#fbsection6 {
+
+	background-color: #19192e;
+	height: 40vh;
+	}
+	#fbsection9 {
+
+	background-color: #19192e;
+	height: 40vh;
+	}
+	#fbsection8 {
+
+	background-color: #19192e;
+	height: 40vh;
+	}
+	#fbsection4 {
+		background-image: url('../img/Collectif/typo-fond.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: right;
+	background-color: #fff;
+	height: 30vh;
+	}
+	#fbsection3 {
+	background-color: #e793bc;
+	height: 50vh;
+		position: relative;
+	}
+	#fbsection2 {
+		background-image: url('../img/Collectif/image-collectif-1.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+	background-color: #12122c;
+	height: 40vh;
+	}
+.paragraphe h2 {
+	margin-left: 0px;
+
+}
+
+	.paragraphe {
+		position: absolute;
+			top: 60%;
+			transform: translateY(-50%);
+			padding: 40px;
+		text-align: left;
+		justify-content: center;
+		display: block;
+	margin: 0;
+	color: #fff;
+		width: 100%;
+		left: 0;
+	}
+
+	.paragraphe p {
+		display: flex;
+		justify-content: center;
+		text-align: left;
+		align-self: center;
+
+	}
+
+.paragraphe .legende {
+	margin-left: 0;
+}
+
+	.paragraphe5 {
+		position: absolute;
+		bottom: 0;
+
+		text-align: right;
+		right: 0;
+		display: block;
+	width: 100%;
+	top: 80%;
+	}
+
+
+.paragraphe2 {
+	width: auto;
+	margin: 40px;
+}
+
+	.paragraphe2 h2 {
+	margin: 0;
+	margin-left: 0;
+	margin-bottom: 10px;
+		font-size: 1em;
+	}
+
+	.paragraphe2 p {
+		display: flex;
+
+		text-align: left;
+
+	}
+	.paragraphe5 h2 {
+		font-size: 1em;
+		margin: 0;
+	}
+
+}

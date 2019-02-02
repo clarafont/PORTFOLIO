@@ -1,0 +1,303 @@
+/* Set all parents to full height */
+html, body,
+.container,
+.cbp-fbscroller,
+.cbp-fbscroller section {
+	height: 95%;
+margin: 0;
+}
+
+
+/* background-attachment does the trick */
+.cbp-fbscroller section {
+	position: relative;
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.no-touch .cbp-fbscroller section {
+	background-attachment: fixed;
+}
+
+
+
+/* header */
+
+header {
+min-height: 15vh;
+position: fixed;
+text-align: center;
+top: 0;
+left: 0;
+right: 0;
+padding: 1em;
+z-index: 5;
+color: #000000;
+}
+
+.logo_header {
+display: block;
+margin: 25px;
+}
+
+.logo_header img {
+width: 70px;
+}
+
+
+
+
+#fbsection1 {
+	background-color: #2da790;
+	margin: 0 auto;
+	position: relative;
+overflow: hidden;
+height: 95vh;
+}
+
+
+.paragraphe {
+	position: absolute;
+	  top: 60%;
+	  transform: translateY(-50%);
+	text-align: left;
+	display: block;
+color: #fff;
+	width: 55%;
+	left: 22.5%;
+
+}
+
+.paragraphe h2 {
+margin: 0;
+margin-left: -40px;
+margin-bottom: 40px;
+}
+
+.paragraphe p {
+	display: flex;
+
+	text-align: left;
+
+}
+.legende {
+	margin-left: -20px;
+	margin-top: 20px;
+}
+
+
+#fbsection2 {
+	background-image: url('../img/data/fond-maquette-data.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: left;
+background-color: #12122c;
+height: 95vh;
+}
+
+.paragraphe2 {
+	position: absolute;
+	  top: 50%;
+	  transform: translateY(-50%);
+		padding: 40px;
+	text-align: left;
+	margin-left: 50px;
+float: left;
+	display: block;
+
+color: #fff;
+	width: 40%;
+
+}
+
+.paragraphe2 h2 {
+margin: 0;
+margin-left: -40px;
+margin-bottom: 20px;
+}
+
+.paragraphe2 p {
+	display: flex;
+
+	text-align: left;
+
+}
+
+
+#fbsection3 {
+	background-size: contain;
+	background-repeat: no-repeat;
+background-color: #29c199;
+	background-position: left;
+height: 95vh;
+	position: relative;
+}
+
+
+#fbsection4 {
+	background-image: url('../img/data/pictos.svg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+background-color: #12122c;
+height: 95vh;
+}
+
+#fbsection5 {
+background-color: #2da790;
+height: 80vh;
+}
+
+
+
+#fbsection6 {
+background-image: url("../img/data/identite.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+background-color: rgb(41,39,89);
+	background-position: center;
+height: 95vh;
+	position: relative;
+}
+
+
+#fbsection8 {
+background-image: url('../img/data/affiche-2.jpg');
+background-size: contain;
+background-position: right;
+background-color: rgb(41,39,89);
+height: 95vh;
+}
+
+#fbsection7 {
+background-color: rgb(41,39,89);
+height: 95vh;
+}
+
+#fbsection7 img {
+	height: 95vh;
+	float: right;
+}
+
+
+
+@media (max-width: 1150px) {
+
+	#fbsection4 {
+		background-image: url('../img/data/pictos.svg');
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+	background-color: rgb(41,39,89);
+	height: 50vh;
+	}
+
+
+	#fbsection3 {
+		background-size: contain;
+		background-repeat: no-repeat;
+	background-color: #2da790;
+	height: 95vh;
+		position: relative;
+	}
+
+
+.paragraphe h2 {
+	margin-left: 0px;
+	margin-bottom: 10px;
+}
+
+
+	.paragraphe {
+		position: absolute;
+			top: 60%;
+			transform: translateY(-50%);
+			padding: 40px;
+		text-align: left;
+		justify-content: center;
+		display: block;
+	margin: 0;
+	color: #fff;
+		width: 100%;
+		left: 0;
+	}
+
+	.paragraphe p {
+		display: flex;
+		justify-content: center;
+		text-align: left;
+		align-self: center;
+
+	}
+
+
+	#fbsection2 {
+		background-image: url('../img/data/fond-maquette-data.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+	height: 40vh;
+	}
+
+	.paragraphe2 {
+		position: absolute;
+		padding: 30px;
+		top: 40%;
+		text-align: right;
+	right: 0;
+		display: block;
+	color: #fff;
+		width: 100%;
+
+
+	}
+
+	.paragraphe2 h2 {
+	margin: 0;
+	margin-left: 0;
+	}
+
+	.paragraphe2 p {
+		display: flex;
+
+		text-align: left;
+
+	}
+	.legende {
+		margin-left: 0;
+	}
+
+	#fbsection6 {
+	background-image: url("../img/data/identite.jpg");
+		background-size: contain;
+		background-repeat: no-repeat;
+	background-color: rgb(41,39,89);
+		background-position: center;
+	height: 50vh;
+		position: relative;
+	}
+
+
+	#fbsection8 {
+	background-image: url('../img/data/affiche-2.jpg');
+	background-size: contain;
+	background-position: bottom;
+	background-color: rgb(41,39,89);
+	height: 95vh;
+	}
+
+	#fbsection7 {
+		background-image: url('../img/data/affiche-mob.jpg');
+background-size: contain;
+	background-color: rgb(41,39,89);
+	height: 80vh;
+	}
+
+	#fbsection7 img {
+	width: 0;
+
+	}
+
+
+}
