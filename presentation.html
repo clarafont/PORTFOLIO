@@ -5,9 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Présentation</title>
-		<meta name="description" content="Blueprint: Fixed Background Scrolling Layout" />
-		<meta name="keywords" content="background scrolling, fixed background, background-attachment, jquery" />
-		<meta name="author" content="Codrops" />
+
 		<link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
 		<link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
 		<link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
@@ -16,43 +14,77 @@
 		<meta name="theme-color" content="#ffffff">
 
 		<link rel="shortcut icon" href="../favicon.ico">
-		<link rel="stylesheet" type="text/css" href="css/default.css" />
+
+		<link rel="stylesheet" href="https://use.typekit.net/wpj5bsb.css">
+		<link rel="stylesheet" type="text/css" href="css/typography.css" />
 		<link rel="stylesheet" type="text/css" href="css/presentation-style.css" />
-		<link rel="stylesheet" type="text/css" href="style/typo.css" />
-		<link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,100i,300,300i,400,400i,600,600i,700,700i|Quicksand:300,400,500,700" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/demo-letter.css" />
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/style-fleche.css" />
+
+	<!--	<link rel="stylesheet" type="text/css" href="css3/crossword.css" />-->
+		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+
+
 
 	</head>
 
 	<header>
 		<div class="logo_header">
-			<a href="index.html"><img src="images/logo-rose.png" alt="logo"></a>
+			<a href="index.html"><img src="img/clara-blanc.svg" alt="logo"></a>
 		</div>
-		<div class="menu2">
-	<a href="menu.html"></a>
-</div>
 
+
+<nav class="nav-fillpath">
+<a class="prev" href="portofolio.html">
+<span class="icon-wrap"></span>
+<h3><strong>Retour</strong> Portfolio</h3>
+</a>
+</nav>
 	</header>
 
 	<body>
 		<div class="container">
-
+<div id="cbp-fbscroller" class="cbp-fbscroller">
 				<nav>
-					<a href="#fbsection1"></a>
+					<a href="#fbsection8" class="cbp-fbcurrent"></a>
+					<a href="#fbsection1" ></a>
 					<a href="#fbsection2"></a>
 					<a href="#fbsection5"></a>
 					<a href="#fbsection6"></a>
-					<a href="#fbsection3"></a>
-						<a href="#fbsection4"></a>
+          <a href="#fbsection7"></a>
+					<a href="#fbsection9"></a>
+
+
 
 
 
 				</nav>
 
+		<section id="fbsection8">
+						<div class="demo-crossword">
+				<section class="content content--layout">
+<h3 class="texte-pre">Je suis</h3>
+					<h2 class="word word--crossword">
+
+						<span class="word__main" data-column="1" data-row="4">Karma</span>
+						<span class="word__cross" data-column="1" data-row="4">Kiss</span>
+						<span class="word__cross" data-column="2" data-row="2">Heart</span>
+						<span class="word__cross" data-column="3" data-row="1">Embrace</span>
+						<span class="word__cross" data-column="4" data-row="3">Smile</span>
+						<span class="word__cross" data-column="5" data-row="1">Innate</span>
+					</h2>
+				</section>
+
+					</div>
+					</section>
+
+
 				<section id="fbsection1">
 
 <div class="paragraphe">
-<h3>Présentation</h3>
-<h2>_____________________________</h2>
+<h2>Présentation</h2>
+
 <p>Bonjour je suis Clara, bienvenue sur mon site! </p>
 <p>Je suis passionnée de dessin et de graphisme, ma formation a été une véritable révélation!
 Je suis entrée à l'ECV en prépa où j'ai pu y apprendre les bases du dessin et de la couleur.
@@ -66,19 +98,22 @@ musées et les expositions. Je vais
 au théâtre, et j’adore lire un bon
 livre.</p>
 </div>
+
 				</section>
+
+
 
 				<section id="fbsection2">
 
 <div class="paragraphe3">
-<h3>Formation</h3>
-<h2>_____________________________</h2>
+<h2>Formation</h2>
+
 <h4>En cours</h4>
 <p>Obtention du
 Diplôme National de
 Mastère (Bac+5)</p>
-<h5>En formation à l'ECV depuis Septembre 2014</h5>
-<h2>__________________</h2>
+<p class="legende">En formation à l'ECV depuis Septembre 2014</p>
+<p>__________________</p>
 <h4>2014</h4>
 <p>Diplôme National du
 Baccalauréat avec
@@ -91,69 +126,83 @@ Arts Plastiques)</p>
 				<section id="fbsection5">
 
 <div class="paragraphe4">
-<h3>Stages</h3>
-<h2>_____________________________</h2>
+<h2>Stages</h2>
+<p>_________________</p>
 <h4>Juin à Juillet 2016</h4>
 <p>Stage chez Eidola
 Éditions (maison
 d’édition située à
 Angoulême).</p>
-<h5>Mise en page de
+<p class="legende">Mise en page de
 livres jeunesses et
-bande dessinées.</h5>
-<h2>__________________</h2>
+bande dessinées.</p>
+<p>__________________</p>
 <h4>Juin à Juillet 2017</h4>
 <p>Stage chez Alket Edition (agence située à Angoulême)</p>
-<h5>Retouche de photos (spiritueux), réalisation de brochures et livrets, création de cartes de visite, illustrations...</h5>
+<p class="legende">Retouche de photos (spiritueux), réalisation de brochures et livrets, création de cartes de visite, illustrations...</h5>
+	<p>__________________</p>
+	<h4>Juin à Juillet 2017</h4>
+	<p>Stage chez Alket Edition (agence située à Angoulême)</p>
+	<p class="legende">Retouche de photos (spiritueux), réalisation de brochures et livrets, création de cartes de visite, illustrations...</h5>
+
 </div>
 				</section>
 
 				<section id="fbsection6">
 			<div class="paragraphe5">
-				<h3>Compétences</h3>
-				<h2>_____________________________</h2>
+				<h2>Compétences</h2>
+
 				<h4>Logiciels de la suite Adobe</h4>
 				<p>Illustrator - InDesign - Photoshop - After Effect</p>
-				<h2>__________________</h2>
+				<p>__________________</p>
 				<h4>Notions en HTML et CSS</h4>
 				<p>Par exemple, ce site a été créé par mes soins!</p>
-				<h2>__________________</h2>
+				<p>__________________</p>
 				<h4>Logiciels de bureautique</h4>
 				<p>Word - Excel - Power Point - Publisher</p>
 
 </div>
 					</section>
 
-				<section id="fbsection3">
-<div class="reseaux">
+				<section id="fbsection7">
+
 	<ul class="linklist">
-			<li><a href="https://www.instagram.com/clara_fontenier/"><img src="images/instagram.svg"/></a></li>
-			<li><a href="https://www.facebook.com/cfontenier/"><img src="images/facebook.svg"/></a></li>
-			<li><a href="https://www.linkedin.com/in/clara-fontenier-685587141/"><img src="images/linkin.svg"/></a></li>
+			<li><a href="https://www.instagram.com/clara_fontenier/"><img src="img/instagram.svg"/></a></li>
+			<li><a href="https://www.facebook.com/cfontenier/"><img src="img/facebook.svg"/></a></li>
+			<li><a href="https://www.linkedin.com/in/clara-fontenier-685587141/"><img src="img/linkin.svg"/></a></li>
 	</ul>
 
-					<div class="bouton">
 
-<a href="contact.html">Contact</a>
-						</div>
+	<nav class="nav-fillpath">
+		<a class="next" href="#fbsection8">
+			<span class="icon-wrap"></span>
+			<h3><strong>Haut</strong> page</h3>
+		</a>
+	</nav>
+
+	</section>
+		<section id="fbsection9">
+	<nav class="menu menu--salal">
+			<a class="menu__item" href="contact.html">
+			<span class="menu__item-name">Contactez-moi</span>
+		</a>
+	</nav>
+</section>
+
 </div>
-
-
-				</section>
-
-				<section id="fbsection4">
-
-					<div class="pied">
-					  <a href="#"></a>
-					  <p>© Clara Fontenier</p>
-					</div>
-				</section>
-
-			</div>
-
 
 
 
 	</body>
-
+	<script src="js/charming.min.js"></script>
+	<script src="js/anime.min.js"></script>
+	<script src="js/demo.js"></script>
+	<script src="js/demo7.js"></script>
+	<script src="js/modernizr.custom.js"></script>
+	<script src="js/demo-salal.js"></script>
+<script>
+	$(function() {
+		cbpFixedScrollLayout.init();
+	});
+</script>
 </html>

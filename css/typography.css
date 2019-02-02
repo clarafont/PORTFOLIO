@@ -1,0 +1,202 @@
+h3 {
+font-family: neuzeit-grotesk, sans-serif;
+font-weight: 700;
+font-style: normal;
+font-size: 5em;
+}
+
+.nav-slit h3 {
+  font-family: kepler-std-extended-display, serif;
+  font-weight: 700;
+  font-style: italic;
+font-size: 0.8em;
+	line-height: 2.75;
+}
+
+h2 {
+  font-family: kepler-std-extended-display, serif;
+  font-weight: 700;
+  font-style: italic;
+font-size: 3em;
+
+}
+
+h1 {
+font-family: neuzeit-grotesk, sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 1.3em;
+margin: 0;
+}
+
+
+h4 {
+  font-family: kepler-std, serif;
+    font-weight: 400;
+  font-style: italic;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 0;
+}
+
+.content-wrap p {
+
+font-family: kepler-std-extended-display, serif;
+font-weight: 700;
+font-style: italic;
+font-size: 20px;
+line-height: 30px;
+
+}
+
+/*p {
+font-family: kepler-std, serif;
+  font-weight: 300;
+font-size: 20px;
+line-height: 34px;
+
+}*/
+
+p {
+  font-family: neuzeit-grotesk, sans-serif;
+  font-weight: 400;
+font-size: 20px;
+line-height: 34px;
+margin: 0;
+}
+
+.legende {
+
+  font-family: kepler-std, serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 20px;
+  line-height: 34px;
+}
+.menu__item {
+  font-family: neuzeit-grotesk, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1em;
+}
+
+#fbsection9 .menu__item {
+  font-family: neuzeit-grotesk, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.2em;
+
+}
+
+.logo a {
+  font-family: neuzeit-grotesk, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2em;
+  letter-spacing: 0.06em;
+}
+
+.logo h4 {
+  font-family: kepler-std, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.nav-fillpath h3 {
+font-family: neuzeit-grotesk, sans-serif;
+  font-size: 20px;
+  line-height: 22px;
+}
+
+.menu--salal .menu__item-label {
+  font-family: kepler-std, serif;
+    font-weight: 400;
+  font-style: italic;
+  font-size: 22px;
+  line-height: 30px;
+
+}
+
+.word--crossword {
+  font-family: neuzeit-grotesk, sans-serif;
+  font-style: normal;
+}
+
+.texte-pre {
+  font-family: kepler-std-extended-display, serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 80px;
+  margin : 0;
+  margin-top: 14px;
+}
+
+.cbp-fwslider p{
+	text-align: center;
+	padding: 10px;
+  font-weight: 700;
+font-size: 18px;
+color: #2E3457;
+}
+
+.cbp-fwslider-mob p{
+	text-align: center;
+	padding: 10px;
+  font-weight: 700;
+font-size: 18px;
+color: #2E3457;
+}
+
+@media (max-width: 1150px) {
+  h2 {
+    font-family: kepler-std-extended-display, serif;
+    font-weight: 700;
+    font-style: italic;
+  font-size: 2em;
+  margin: 20px;
+  }
+
+  p {
+    font-family: neuzeit-grotesk, sans-serif;
+    font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+
+  }
+  .legende {
+
+    font-family: kepler-std, serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .content-wrap p {
+
+  font-family: kepler-std-extended-display, serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 28px;
+  line-height: 38px;
+
+  }
+
+    .content-wrap .menu__item {
+    font-family: neuzeit-grotesk, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.6em;
+  }
+
+  h4 {
+    font-family: kepler-std, serif;
+      font-weight: 400;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 30px;
+    margin: 0;
+  }
+}
