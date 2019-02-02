@@ -18,6 +18,7 @@ body {
 }
 
 
+
 .menu__item img {
 	width: 80px;
 
@@ -40,6 +41,13 @@ body {
 .reseaux img {
 	max-width: 30px;
 }
+
+.reseaux a:hover {
+	opacity: 0.5;
+
+}
+
+
 .menu--salal {
 	display: inline-flex;
 	align-items: center;
@@ -71,7 +79,7 @@ body {
 }
 
 .content--layout-2 .menu--salal .menu__item:first-child {
-	--menu-item-color:#29C199;
+	--menu-item-color:#12122c;
 }
 
 
@@ -251,7 +259,10 @@ a:focus {
 	padding: 0 2em;
 	min-height: 600px;
 	height: 100vh;
-	font-size: 0.85em;
+	grid-gap: 20px;
+	grid-template-columns: auto auto auto;
+	grid-template-rows: auto auto auto;
+
 }
 
 .content__img {
@@ -305,30 +316,54 @@ a:focus {
 }
 
 .content__info {
-	grid-column: 1 / 3;
+	grid-column: 1 / 4;
+	grid-row: 1;
+	font-size: 1.5em;
+		padding: 20px;
 }
 
-.content__related-item {
-	padding: 1em;
-	transition: color 0.3s;
-}
 
 .content__related-img {
-	max-width: 100%;
-	opacity: 0.8;
-	transition: opacity 0.3s;
+	max-width: 250px;
+	justify-self: center;
 }
 
-.content__related-item:hover .content__related-img,
-.content__related-item:focus .content__related-img {
-	opacity: 1;
-}
 
 .content__related-title {
-	font-size: 1em;
 	margin: 0;
-	padding: 0.5em;
+
 }
+
+#item1 {
+	grid-column: 1;
+	grid-row: 2;
+}
+#item2 {
+	grid-column: 2;
+	grid-row: 2;
+}
+#item3 {
+	grid-column: 3;
+	grid-row: 2;
+}
+
+.reseaux-2 {
+	grid-column: 2;
+	grid-row: 3;
+display: inline-flex;
+justify-content: center;
+padding: 20px;
+}
+.reseaux-2 img {
+width: 50px;
+margin: 10px;
+
+}
+.reseaux-2 a:hover {
+	opacity: 0.5;
+
+}
+
 
 /* Different layouts */
 
@@ -636,7 +671,65 @@ color: #753E9A;
 		min-height: 300px;
 		pointer-events: none;
 	}
+	.content--related {
+		text-align: center;
+		align-content: center;
+		justify-content: center;
+		padding: 0 2em;
+		min-height: 600px;
+		height: auto;
+		grid-gap: 20px;
+		grid-template-columns: auto;
+		grid-template-rows: auto auto auto;
 
+	}
+
+	.content__info {
+		grid-column: 1;
+		grid-row: 1;
+		font-size: 1.5em;
+			padding: 0;
+	}
+
+
+	.content__related-img {
+		max-width: 200px;
+		justify-self: center;
+	}
+
+
+	.content__related-title {
+		margin: 0;
+
+	}
+
+	#item1 {
+		grid-column: 1;
+		grid-row: 2;
+	}
+	#item2 {
+		grid-column: 1;
+		grid-row: 3;
+	}
+	#item3 {
+		grid-column: 1;
+		grid-row: 4;
+	}
+
+	.reseaux-2 {
+		grid-column: 1;
+		grid-row: 5;
+	display: inline-flex;
+	justify-content: center;
+	padding: 20px;
+	}
+	.reseaux-2 img {
+	width: 50px;
+	margin: 10px;
+
+	}
+	.reseaux-2 a:hover {
+		opacity: 0.5;
 
 }
 

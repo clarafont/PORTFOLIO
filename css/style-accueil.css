@@ -289,6 +289,12 @@ white-space: pre-wrap;
 	padding-top: 10px;
 }
 
+.logo h2 {
+	font-size: 1.4em;
+	color:#ea9bab;
+	margin: 0;
+}
+
 .slide .mirror {
 	position: absolute;
 	top: 50%;
