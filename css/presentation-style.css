@@ -4,7 +4,7 @@ html, body,
 .container,
 .cbp-fbscroller,
 .cbp-fbscroller section {
-	height: 80%;
+	height: 95%;
 margin: 0;
 }
 
@@ -45,7 +45,7 @@ width: 70px;
 #fbsection8 {
 background-color: #1455bc;
 margin: 0 auto;
-height: 90vh;
+height: 95vh;
 position: relative;
 
 }
@@ -53,8 +53,7 @@ position: relative;
 #fbsection1 {
 	background-color: #1455bc;
 	margin: 0 auto;
-height: 90vh;
-
+height: 95vh;
  position: relative;
 }
 
@@ -143,7 +142,8 @@ position: absolute;
 text-align: center;
 justify-content: center;
 display: block;
-width: 100%;
+width: 55%;
+left: 22.5%;
 margin: 0;
 padding: 20px;
 color: #fff;
@@ -151,6 +151,7 @@ color: #fff;
 
 .paragraphe4 h3, h2 {
 	color: #ea9bab;
+	margin: 10px;
 }
 
 .paragraphe4 h5 {
@@ -222,6 +223,9 @@ padding-left: 0;
 .linklist img {
 
   width: 60px;
+}
+.linklist a:hover {
+	opacity: 0.5;
 }
 
 #fbsection9 {
@@ -350,9 +354,9 @@ margin: 0 0 0 0.5em;
 
 		.paragraphe {
 			position: absolute;
-				top: 60%;
+				top: 50%;
 				transform: translateY(-50%);
-				padding: 40px;
+				padding: 20px;
 			text-align: left;
 			justify-content: center;
 			display: block;
@@ -365,10 +369,7 @@ margin: 0 0 0 0.5em;
 
 		.paragraphe p {
 			display: flex;
-			justify-content: center;
 			text-align: left;
-			align-self: center;
-
 		}
 
 		.legende {
@@ -406,10 +407,21 @@ margin: 0 0 0 0.5em;
 			background-color: #1455bc;
 			margin: 0 auto;
 height: 95%;
-
 		 position: relative;
 		}
 
-
+		.paragraphe4 {
+		position: absolute;
+		  top: 50%;
+		  transform: translateY(-50%);
+		text-align: center;
+		justify-content: center;
+		display: block;
+		width: 100%;
+		left: 0;
+		margin: 0;
+		padding: 20px;
+		color: #fff;
+		}
 
 	}

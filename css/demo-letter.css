@@ -49,18 +49,17 @@ a:focus {
 
 
 .content {
-	position: relative;
+	position: absolute;
 	display: grid;
 	justify-content: center;
 	align-content: center;
 	overflow: hidden;
-	min-height: 800px;
-	margin: 0 auto;
 }
 
 
 .content--layout {
-	grid-template-columns: 20% 40%;
+	grid-template-columns: 20% 30%;
+	grid-gap: 30px;
 
 }
 
@@ -93,16 +92,16 @@ color: #ea9bab;
 }
 
 .word--crossword {
-	font-size: 11vh;
+	font-size: 7vh;
 font-family: neuzeit-grotesk, sans-serif;
 	font-weight: 700;
 	text-transform: uppercase;
 	color: #fff;
 	line-height: 0.9;
-	margin: 0;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-	justify-self: center;
+	justify-self: start;
+	margin-top: 2em;
 }
 
 .word--crossword span {
@@ -130,6 +129,7 @@ font-family: neuzeit-grotesk, sans-serif;
 	text-align: right;
 	align-self: center;
 	font-size: 2em;
+	margin-top: 0.5em;
 	}
 	.content {
 		position: relative;
@@ -144,8 +144,8 @@ font-family: neuzeit-grotesk, sans-serif;
 
 
 	.content--layout {
-		grid-template-columns: 30% 70%;
-		grid-gap: 10px;
+		grid-template-columns: 30% 60%;
+		grid-gap: 20px;
 
 	}
 	.word--crossword {
@@ -156,9 +156,9 @@ font-family: neuzeit-grotesk, sans-serif;
 		text-transform: uppercase;
 		color: #fff;
 		line-height: 0.9;
-		margin: 0;
+		margin-top : 1.2em;
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-		justify-self: center;
+		justify-self: start;
 	}
 }

@@ -471,7 +471,7 @@ margin: 10px;
 }
 
 .content--layout-4 .content__img {
-	grid-column: 2 / 4;
+	grid-column: 2 / 5;
 	grid-row: 1 / 4;
 	background-image: url('../img/portfolio/cuve-2.jpg');
 	background-size: cover;
@@ -479,19 +479,36 @@ margin: 10px;
 }
 
 .content--layout-4 .content__author {
+	grid-column: 2;
 	justify-self: start;
 	align-self: end;
 }
 
 .content--layout-4 .menu--salal {
-	grid-column: 4;
+	grid-column: 1;
 	grid-row: 3;
 	margin: 0;
-	padding-left: 20px;
-	text-align: left;
+	padding-right: 20px;
+	text-align: right;
 	align-self: end;
+	justify-content: flex-end;
 
 }
+
+.content--layout-4 .content__desc {
+	grid-column: 1;
+	grid-row: 2 / 3;
+	text-align: right;
+
+}
+
+.content--layout-4 .content__title {
+		grid-column: 1 / 3;
+
+
+}
+
+
 
 /* layout-5 */
 
@@ -730,6 +747,8 @@ color: #753E9A;
 	}
 	.reseaux-2 a:hover {
 		opacity: 0.5;
+
+}
 
 }
 

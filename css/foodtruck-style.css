@@ -154,6 +154,10 @@ height: 90vh;
 
 }
 
+#fbsection6 .paragraphe {
+	top: 50%;
+}
+
 #fbsection12 {
 	background-image: url('../img/foodtruck/camion-ferme.jpg');
 	background-size: contain;

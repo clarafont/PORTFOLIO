@@ -133,6 +133,10 @@ height: 90vh;
 height: 90vh;
 }
 
+#fbsection6 .paragraphe {
+	top: 50%;
+}
+
 .paragraphe4 {
 	position: absolute;
 	  top: 50%;
@@ -346,8 +350,8 @@ margin-bottom: 20px;
 	.paragraphe2 {
 		position: absolute;
 		 bottom: 0;
-		padding: 30px;
-		top: 60%;
+		padding: 20px;
+		top: 70%;
 		text-align: right;
 	right: 0;
 		display: block;
@@ -421,6 +425,11 @@ margin-bottom: 20px;
 		position: relative;
 	height: 90vh;
 	}
+
+	#fbsection6 .paragraphe {
+		padding: 20px;
+	}
+
 	#fbsection16 {
 		background-image: url('../img/base/programme.jpg');
 		background-size: contain;
@@ -478,12 +487,13 @@ margin-bottom: 20px;
 
 	.paragraphe3 {
 		position: absolute;
-			padding: 40px;
+			padding: 20px;
 		text-align: left;
 bottom: 0;
 		display: block;
 	color: #28338c;
 		width: 100%;
+		top: 75%;
 
 	}
 
@@ -550,13 +560,13 @@ bottom: 0;
 		position: absolute;
 		width: 100%;
 		height: auto;
-			padding: 40px;
+			padding: 20px;
 		text-align: left;
 		display: block;
 	margin: 0;
 	bottom: 0;
 	color: #fff;
-	top: 60%;
+	top: 65%;
 	transform: translateY(-50%);
 
 

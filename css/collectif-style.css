@@ -198,7 +198,7 @@ color: #fff;
 #fbsection7 {
 
 	background-color: #19192e;
-	min-height: 95vh;
+	height: 95vh;
 }
 
 .paragraphe a .legende {
@@ -311,6 +311,9 @@ color: #fff;
 	.paragraphe5 h2 {
 		font-size: 1em;
 		margin: 0;
+	}
+	#fbsection7 .paragraphe{
+padding: 20px;
 	}
 
 }
