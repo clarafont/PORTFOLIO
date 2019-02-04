@@ -114,6 +114,10 @@ margin: 0;
 
 }
 
+.linklist a:hover {
+	opacity: 0.5;
+}
+
 .linklist li {
   list-style-type: none;
 padding: 20px;

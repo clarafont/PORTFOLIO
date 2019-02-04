@@ -159,6 +159,9 @@ height: 90vh;
 	height: 90vh
 }
 
+#fbsection6 .paragraphe {
+	top: 50%;
+}
 
 #fbsection7 {
 	background-image: url('../img/Triomemo/affiche_chaumont.jpg');
@@ -204,6 +207,10 @@ height: 95vh;
 
 	}
 
+	#fbsection6 .paragraphe {
+		padding: 20px;
+	}
+
 	#fbsection2 {
 		background-image: url('../img/Triomemo/logo.jpg');
 		background-size: contain;
@@ -220,7 +227,7 @@ height: 95vh;
 		background-color: #fff;
 		background-position: top;
 		position: relative;
-		height: 70vh;
+		height: 90vh;
 	}
 
 
@@ -246,7 +253,6 @@ height: 95vh;
 
 	.paragraphe3 p {
 		display: flex;
-		font-size: 0.8em;
 
 
 	}

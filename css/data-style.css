@@ -149,7 +149,9 @@ background-color: #2da790;
 height: 80vh;
 }
 
-
+#fbsection5 .paragraphe {
+	top: 50%;
+}
 
 #fbsection6 {
 background-image: url("../img/data/identite.jpg");
@@ -242,7 +244,7 @@ height: 95vh;
 
 	.paragraphe2 {
 		position: absolute;
-		padding: 30px;
+		padding: 20px;
 		top: 40%;
 		text-align: right;
 	right: 0;

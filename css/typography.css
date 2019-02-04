@@ -2,7 +2,7 @@ h3 {
 font-family: neuzeit-grotesk, sans-serif;
 font-weight: 700;
 font-style: normal;
-font-size: 5em;
+font-size: 4.3em;
 }
 
 .nav-slit h3 {
@@ -128,9 +128,9 @@ font-family: neuzeit-grotesk, sans-serif;
   font-family: kepler-std-extended-display, serif;
   font-weight: 700;
   font-style: italic;
-  font-size: 80px;
+  font-size: 7vh;
   margin : 0;
-  margin-top: 14px;
+  margin-top: 1em;
 }
 
 .cbp-fwslider p{
@@ -162,7 +162,7 @@ color: #2E3457;
     font-family: neuzeit-grotesk, sans-serif;
     font-weight: 400;
   font-size: 16px;
-  line-height: 28px;
+  line-height: 26px;
 
   }
   .legende {
@@ -179,8 +179,8 @@ color: #2E3457;
   font-family: kepler-std-extended-display, serif;
   font-weight: 700;
   font-style: italic;
-  font-size: 28px;
-  line-height: 38px;
+  font-size: 22px;
+  line-height: 30px;
 
   }
 
@@ -198,5 +198,11 @@ color: #2E3457;
     font-size: 18px;
     line-height: 30px;
     margin: 0;
+  }
+  h3 {
+  font-family: neuzeit-grotesk, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 4em;
   }
 }
