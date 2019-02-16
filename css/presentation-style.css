@@ -1,4 +1,5 @@
 /* Set all parents to full height */
+
 html, body,
 .container,
 .cbp-fbscroller,
@@ -9,85 +10,81 @@ margin: 0;
 
 
 header {
-max-height: 20vh;
-background-color: #fff;
+min-height: 15vh;
+	position: fixed;
 text-align: center;
 top: 0;
 left: 0;
 right: 0;
-padding: 20px;
+padding: 1em;
 z-index: 5;
-color: #000000;
+
 }
 
 .logo_header {
-
+display: block;
+margin: 25px;
 }
 
 .logo_header img {
 width: 70px;
 }
-.menu2 a{
-  position: absolute;
-  display: block;
-  right:0;
-top: 0;
-margin: 20px;
-padding: 25px;
-background-image: url("images/menu-bleu-03.svg");
-background-size: contain;
-background-repeat: no-repeat;
-background-position: center;
+
+.cbp-fbscroller section {
+	position: relative;
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.no-touch .cbp-fbscroller section {
+	background-attachment: fixed;
 }
 
 
-
-.menu2 a:hover{
-  background-image: url("images/menu-jaune-03.svg");
+#fbsection8 {
+background-color: #1455bc;
+margin: 0 auto;
+height: 95vh;
+position: relative;
 
 }
-
-
-
-
 
 #fbsection1 {
 	background-color: #1455bc;
 	margin: 0 auto;
-height: 95vh;
-
+height: 80vh;
  position: relative;
 }
 
 
 .paragraphe {
 	position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
-	padding: 10px;
-	text-align: center;
-	justify-content: center;
+	  top: 40%;
+	  transform: translateY(-50%);
+	text-align: left;
 	display: block;
-	margin: 0;
-	color: #fff;
-	width: 50%;
-	margin-left: 25%;
+color: #fff;
+	width: 55%;
+	left: 22.5%;
 
 }
 
-.paragraphe h2, h3{
+.paragraphe h2 {
+margin: 0;
+margin-left: -40px;
+margin-bottom: 40px;
 color: #ea9bab;
 }
 
 .paragraphe p {
 	display: flex;
-	justify-content: center;
-	text-align: center;
-	align-self: center;
+	text-align: left;
+
 }
 
 #fbsection2 {
-	background-image: url("images/etudes.png");
+	background-image: url("../img/etudes.png");
 
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -133,28 +130,20 @@ color: #1455bc;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-color: #1455bc;
-  height: 80vh;
+  height: 95vh;
   position: relative;
 
 }
 
 .paragraphe4 {
-	/*display: block;
-padding: 100px;
-color: #fff;
-text-align: center;
-justify-content: center;
-align-items: center;
-align-self: center;
-margin: 0 auto;*/
-
 position: absolute;
   top: 50%;
   transform: translateY(-50%);
 text-align: center;
 justify-content: center;
 display: block;
-width: 100%;
+width: 55%;
+left: 22.5%;
 margin: 0;
 padding: 20px;
 color: #fff;
@@ -162,6 +151,7 @@ color: #fff;
 
 .paragraphe4 h3, h2 {
 	color: #ea9bab;
+	margin: 10px;
 }
 
 .paragraphe4 h5 {
@@ -170,7 +160,7 @@ color: #fff;
 
 
 #fbsection6 {
-	background-image: url("images/competences.png");
+	background-image: url("../img/competences.png");
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: left;
@@ -203,165 +193,196 @@ color: #1455bc;
 }
 
 .paragraphe5 h3, h2 {
-	color: #ec6d80;
+	color: #ea9bab;
 }
 
 .paragraphe5 h5 {
 	font-size: 0.9em;
 }
 
-#fbsection3 {
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: #1455bc;
-  padding: 20px;
-  width: 100%
+#fbsection7 {
+	background-color: #1455bc;
+	padding: 20px;
+ height: 20vh;
 }
 
-
-
-.reseaux {
-  margin: 0;
-  position: relative;
-  padding: 50px;
-  width: 100%;
-}
 
 .linklist  {
   list-style-type: none;
   align-self: center;
   display: inline-flex;
-  align-items: center;
-  justify-content: center;
 width: 100%;
-margin: 0;
+justify-content: center;
 padding-left: 0;
-height: 50%;
-
 
 }
 
 .linklist li {
-  list-style-type: none;
-padding: 20px;
-}
-
-.linklist img {
-  width: 70px;
-}
-
-
-
-
-  .bouton {
-  margin: 0;
-  padding: 20px;
-
-  }
-
-
-  .bouton a{
-    background-color: none;
-    height: 40px;
-    width: 160px;
-    text-align: center;
-    padding : 8px;
-    text-decoration: none;
-    display: block;
-    margin: auto;
-		border: 2px solid #ec6d80;
-		color: #ec6d80;
-
-  }
-	.bouton a:hover {
-    background-color: none;
-    height: 40px;
-    width: 160px;
-    text-align: center;
-    padding : 8px;
-    display: block;
-    color: #fff;
-		border: 2px solid #fff;
-		color: #fff;
-  }
-
-  .bouton a:active {
-    background-color: none;
-    height: 40px;
-    width: 160px;
-    text-align: center;
-    padding : 8px;
-    display: block;
-    color: #fff;
-	border: 0px solid #fff;
-  }
-
-
-
-
-	/*footer*/
-	.pied {
-	max-height: 10vh;
-	  background-color: #fff;
-	  margin: 0;
-	  padding: 10px;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	position: relative;
-	text-align: left;
-	justify-content: center;
-
-	}
-
-	.pied a{
-
-	  background-image: url("images/fleche-haut-02.svg");
-	background-repeat: no-repeat;
-	background-size: contain;
-	  display: block;
 	padding: 20px;
-	background-position: center;
-	justify-content: center;
+}
+.linklist img {
 
-	}
+  width: 60px;
+}
+.linklist a:hover {
+	opacity: 0.5;
+}
 
-	.pied a:hover {
-	  background-image: url("images/fleche-haut-hover-02.svg");
+#fbsection9 {
+	background-color: #1455bc;
+	padding: 20px;
+ height: 20vh;
+}
+/* bouton */
+.menu--salal {
+display: inline-flex;
+align-items: center;
+justify-content: center;
+width: 100%;
+}
 
-	}
+.menu-header .menu__item {
+padding: 10px;
+}
 
-	.pied p{
-	  font-size: 0.6em;
+.menu--salal .menu__item:hover {
+color: #515152;
+}
 
-	}
+.menu--salal .menu__item:first-child {
+--menu-item-color:#f85f83;
+}
+
+.menu--salal .menu__item:nth-child(2) {
+--menu-item-color:#f85f83;
+}
+
+.menu--salal .menu__item:nth-child(3) {
+--menu-item-color:#24d261;
+}
+
+.menu--salal .menu__item:nth-child(4) {
+--menu-item-color:#6537f7;
+}
+
+.menu--salal .menu__item-name {
+color: #fff;
+}
+
+.menu--salal .menu__item-name::before {
+content: '';
+position: absolute;
+z-index: -1;
+bottom: 0;
+left: 0;
+width: 100%;
+height: 50%;
+background: var(--menu-item-color);
+transform: scale3d(1,0,1);
+transform-origin: 50% 100%;
+transition: transform 0.3s;
+transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+}
+
+.menu--salal .menu__item:hover .menu__item-name::before,
+.menu--salal .menu__item:focus .menu__item-name::before {
+transform: scale3d(1,1,1);
+transform-origin: 50% 0%;
+}
+
+
+a {
+text-decoration: none;
+color: #5d93d8;
+color: var(--color-link);
+outline: none;
+}
+
+a:hover,
+a:focus {
+color: #423c2b;
+color: var(--color-link-hover);
+outline: none;
+}
+
+.hidden {
+position: absolute;
+overflow: hidden;
+width: 0;
+height: 0;
+pointer-events: none;
+}
+
+
+.menu {
+position: relative;
+z-index: 10;
+}
+
+.menu__item {
+line-height: 1;
+position: relative;
+display: block;
+outline: none;
+}
+
+.menu__item-name,
+.menu__item-label {
+position: relative;
+display: inline-block;
+}
+
+.menu__item-name {
+font-size: 1.25em;
+}
+
+.menu__item-label {
+margin: 0 0 0 0.5em;
+}
+
+
+
 
 	@media (max-width: 1024px) {
+
+		#fbsection8 {
+		background-color: #1455bc;
+		margin: 0 auto;
+		height: 95vh;
+		position: relative;
+		}
+
 		.paragraphe {
 			position: absolute;
 				top: 50%;
 				transform: translateY(-50%);
-				padding: 40px;
-			text-align: center;
+				padding: 20px;
+			text-align: left;
 			justify-content: center;
 			display: block;
 		margin: 0;
 		color: #fff;
 			width: 100%;
+			left: 0;
 
 		}
 
 		.paragraphe p {
 			display: flex;
-			justify-content: center;
-			text-align: center;
-			align-self: center;
+			text-align: left;
+		}
+
+		.legende {
+			margin-left: 0;
+		}
+		.paragraphe h2 {
+		margin-left: 0;
+		margin-bottom: 10px;
 
 		}
 
 		#fbsection2 {
-			background-image: url("images/etudes.png");
+			background-image: url('../img/etudes.png');
 
 			background-size: cover;
 			background-repeat: no-repeat;
@@ -372,7 +393,7 @@ padding: 20px;
 
 		}
 		#fbsection6 {
-			background-image: url("images/competences.png");
+			background-image: url('../img/competences.png');
 			background-size: cover;
 			background-repeat: no-repeat;
 			background-position: left;
@@ -385,17 +406,26 @@ padding: 20px;
 		#fbsection1 {
 			background-color: #1455bc;
 			margin: 0 auto;
-min-height: 95%;
-
+height: 95%;
 		 position: relative;
 		}
 
-
-		.paragraphe {
-
-			font-size: 0.8em;
-
+		.paragraphe4 {
+		position: absolute;
+		  top: 50%;
+		  transform: translateY(-50%);
+		text-align: center;
+		justify-content: center;
+		display: block;
+		width: 100%;
+		left: 0;
+		margin: 0;
+		padding: 20px;
+		color: #fff;
 		}
 
+		.linklist img {
+		  width: 40px;
+		}
 
 	}

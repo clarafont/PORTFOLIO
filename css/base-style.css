@@ -21,82 +21,70 @@ margin: 0;
 }
 
 
-
 header {
-max-height: 20vh;
-background-color: #fff;
+min-height: 15vh;
+position: fixed;
 text-align: center;
 top: 0;
 left: 0;
 right: 0;
-padding: 2em;
+padding: 1em;
 z-index: 5;
 color: #000000;
 }
 
 .logo_header {
-
+display: block;
+margin: 25px;
 }
 
 .logo_header img {
-width: 70px;
-}
-
-.menu2 a{
-  position: absolute;
-  display: block;
-  right:0;
-top: 0;
-margin: 20px;
-padding: 25px;
-background-image: url("images/menu-bleu-03.svg");
-background-size: contain;
-background-repeat: no-repeat;
-background-position: center;
-z-index: 6;
-}
-
-
-
-.menu2 a:hover{
-  background-image: url("images/menu-jaune-03.svg");
-
-}
+	width: 70px;
+	}
 
 
 #fbsection1 {
 	background-color: #28338c;
 	margin: 0 auto;
 	position: relative;
+	height: 95vh;
+	overflow: hidden;
 
 }
 
 
 .paragraphe {
 	position: absolute;
-	  top: 50%;
+	  top: 60%;
 	  transform: translateY(-50%);
-		padding: 450px;
-	text-align: center;
-	justify-content: center;
+	text-align: left;
 	display: block;
-margin: 0;
 color: #fff;
-	width: 100%;
+	width: 55%;
+	left: 22.5%;
 
+}
+
+.paragraphe h2 {
+margin: 0;
+margin-left: -40px;
+margin-bottom: 40px;
 }
 
 .paragraphe p {
 	display: flex;
-	justify-content: center;
-	text-align: center;
-	align-self: center;
 
+	text-align: left;
+
+}
+.legende {
+	margin-left: -20px;
+	margin-top: 20px;
 }
 
 
 #fbsection2 {
-	background-image: url(../images/base/logo.jpg);
+	background-image: url('../img/base/logo.jpg');
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -105,7 +93,7 @@ height: 90vh;
 }
 
 #fbsection3 {
-	background-image: url(../images/base/charte.jpg);
+	background-image: url('../img/base/charte.jpg');
 	background-size: 70%;
 	background-repeat: no-repeat;
 	background-color: #fff;
@@ -118,41 +106,23 @@ height: 90vh;
 
 
 #fbsection4 {
-	background-image: url(../images/base/cdv.jpg);
+	background-image: url('../img/base/cdv.jpg');
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
 background-color: #b0b0b0;
-min-height: 90vh;
+height: 90vh;
 }
 
-.paragraphe3 {
-	position: absolute;
-	display: block;
-color: #000000;
-text-align: left;
-right: 0;
-padding: 70px;
-margin: 0 auto;
-top: 50%;
-transform: translateY(-50%);
-width: 50%;
 
-}
-
-.paragraphe3 p {
-	display: flex;
-
-
-}
 
 #fbsection5 {
-	background-image: url(../images/base/papier.jpg);
+	background-image: url('../img/base/papier.jpg');
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
 background-color: #52bbb4;
-min-height: 90vh;
+height: 90vh;
 
 }
 
@@ -160,263 +130,292 @@ min-height: 90vh;
 	background-color: #28338c;
 	margin: 0 auto;
 	position: relative;
+height: 90vh;
+}
 
+#fbsection6 .paragraphe {
+	top: 50%;
 }
 
 .paragraphe4 {
 	position: absolute;
 	  top: 50%;
 	  transform: translateY(-50%);
-		padding: 450px;
-	text-align: center;
-	justify-content: center;
+		padding: 80px;
+	text-align: left;
 	display: block;
 margin: 0;
 color: #fff;
-	width: 100%;
+	width: 38%;
 
 }
 
 .paragraphe4 p {
 	display: flex;
 	justify-content: center;
-	text-align: center;
+	text-align: left;
 	align-self: center;
 
 }
-#fbsection7 {
-	background-image: url(../images/base/programme.jpg);
+#fbsection16 {
+	background-image: url('../img/base/programme.jpg');
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
 background-color: #52bbb4;
-	min-height: 95vh;
+	height: 95vh;
 }
 
 #fbsection8 {
-	background-image: url(../images/base/affiche.jpg);
+	background-image: url('../img/base/affiche.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 background-color: #fff;
-	min-height: 95vh;
+height: 95vh;
 }
 #fbsection9 {
-	background-image: url(../images/base/market.jpg);
+	background-image: url('../img/base/market.jpg');
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
 background-color: #fff;
-	min-height: 95vh;
+	height: 95vh;
 }
 #fbsection10 {
-	background-image: url(../images/base/carte.jpg);
+	background-image: url('../img/base/carte.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: right;
 background-color: #e1d0a8;
-	min-height: 95vh;
+	height: 95vh;
 }
 
 #fbsection11 {
-	background-image: url(../images/base/picto.jpg);
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: center;
-background-color: #fff;
-	min-height: 95vh;
+
+background-color : #fff;
+	height: 95vh;
+}
+.picto {
+	display: inline-flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	height: 100%;
+width: 60%;
+padding: 50px;
+
+}
+.picto img {
+	height: 18%;
+	padding: 20px;
+	align-self: center;
+}
+
+.paragraphe3 {
+	position: absolute;
+	  top: 60%;
+	  transform: translateY(-50%);
+		padding: 70px;
+	text-align: left;
+right: 0;
+	display: block;
+
+color: #28338c;
+	width: 40%;
+
+}
+
+.paragraphe3 h2 {
+margin: 0;
+margin-left: -40px;
+margin-bottom: 20px;
+}
+
+.paragraphe3 p {
+	display: flex;
+
+	text-align: left;
+
 }
 
 #fbsection12 {
-	background-image: url(../images/base/navette.jpg);
+	background-image: url('../img/base/navette.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 background-color: #b4b4b4;
-	min-height: 95vh;
+	height: 95vh;
 }
 
 #fbsection13{
-	background-image: url(../images/base/panneau.jpg);
+	background-image: url('../img/base/panneau.jpg');
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
 background-color: #fff;
-	min-height: 95vh;
+	height: 95vh;
 }
 
 #fbsection14 {
-	background-image: url(../images/base/facade.jpg);
+	background-image: url('../img/base/facade.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 background-color: #b4b4b4;
-	min-height: 95vh;
+	height: 95vh;
 }
 
 #fbsection15 {
-	background-image: url(../images/base/signaletique.jpg);
-	background-size: contain;
+	background-image: url('../img/base/fond-signaletique.jpg');
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: top;
 background-color: #fff;
+	height: 95vh;
+}
+
+#fbsection7 {
+	background-color : #28338c;
 	min-height: 95vh;
+	overflow: hidden;
 }
 
-#fbsection16 {
-	background-image: url(../images/base/mur.jpg);
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: center;
-background-color: #fff;
-	min-height: 95vh;
+#fbsection7 img {
+	height: 95vh;
 }
 
-
-#fbsection17{
-	max-height: 10vh;
-
-}
-
-
-	/*footer*/
-	.pied {
-	max-height: 10vh;
-	  background-color: #fff;
-	  margin: 0;
-	  padding: 10px;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	position: relative;
+.paragraphe2 {
+	position: absolute;
+	  top: 60%;
+	  transform: translateY(-50%);
+		padding: 70px;
 	text-align: left;
-	justify-content: center;
+right: 0;
+	display: block;
 
-	}
+color: #fff;
+	width: 40%;
 
-	.pied a{
+}
 
-	  background-image: url("images/fleche-haut-02.svg");
-	background-repeat: no-repeat;
-	background-size: contain;
-	  display: block;
-	padding: 20px;
-	background-position: center;
-	justify-content: center;
+.paragraphe2 h2 {
+margin: 0;
+margin-left: -40px;
+margin-bottom: 20px;
+}
 
-	}
+.paragraphe2 p {
+	display: flex;
 
-	.pied a:hover {
-	  background-image: url("images/fleche-haut-hover-02.svg");
+	text-align: left;
 
-	}
+}
 
-	.pied p{
-	  font-size: 0.6em;
 
-	}
+
 @media (max-width: 1150px) {
 
+#fbsection1 {
+	overflow: hidden;
+	height: 95vh;
+}
+
+
+	.paragraphe h2 {
+	margin-left: 0px;
+	margin-bottom: 10px;
+	}
 	.paragraphe {
 		position: absolute;
-		  top: 50%;
-		  transform: translateY(-50%);
+			top: 60%;
+			transform: translateY(-50%);
 			padding: 40px;
-		text-align: center;
+		text-align: left;
 		justify-content: center;
 		display: block;
 	margin: 0;
 	color: #fff;
 		width: 100%;
-font-size: 0.8em;
+		left: 0;
 	}
 
 	.paragraphe p {
 		display: flex;
 		justify-content: center;
-		text-align: center;
+		text-align: left;
 		align-self: center;
 
 	}
-
-	.paragraphe3 {
+	.paragraphe2 {
 		position: absolute;
+		 bottom: 0;
+		padding: 20px;
+		top: 70%;
+		text-align: right;
+	right: 0;
 		display: block;
-	color: #000000;
-	text-align: left;
-	padding: 40px;
-	margin: 0 auto;
-	top: 50%;
-	transform: translateY(-50%);
-width: 100%;
-	}
-
-	.paragraphe3 p {
-		display: flex;
-
-
-	}
-	.paragraphe4 {
-		position: absolute;
-		  top: 50%;
-		  transform: translateY(-50%);
-			padding: 40px;
-		text-align: center;
-		justify-content: center;
-		display: block;
-	margin: 0;
 	color: #fff;
 		width: 100%;
 
+
 	}
 
-	.paragraphe4 p {
+	.paragraphe2 h2 {
+	margin: 0;
+	margin-left: 0;
+	margin-bottom: 10px;
+	}
+
+	.paragraphe2 p {
 		display: flex;
-		justify-content: center;
-		text-align: center;
-		align-self: center;
+
+		text-align: left;
 
 	}
+	.legende {
+		margin-left: 0;
+	}
+
 	#fbsection2 {
-		background-image: url(../images/base/logo.jpg);
-		background-size: 400%;
+		background-image: url('../img/base/logo.jpg');
+		background-size: 250%;
 		background-repeat: no-repeat;
 		background-position: center;
 	background-color: #fff;
-	height: 90vh;
+	height: 50vh;
 	}
 
 	#fbsection3 {
-		background-image: url(../images/base/charte.jpg);
-		background-size: 100%;
+		background-image: url('../img/base/charte.jpg');
+		background-size: 90%;
 		background-repeat: no-repeat;
 		background-color: #fff;
-		height: 90vh;
+		height: 40vh;
 		background-position: center;
-
 		position: relative;
 	}
 
 
 
 	#fbsection4 {
-		background-image: url(../images/base/cdv.jpg);
-		background-size: 130%;
+		background-image: url('../img/base/cdv.jpg');
+		background-size: 120%;
 		background-repeat: no-repeat;
 		background-position: center;
 	background-color: #b0b0b0;
-	min-height: 90vh;
+	height: 40vh;
 	}
 
 
 
 	#fbsection5 {
-		background-image: url(../images/base/papier.jpg);
-		background-size: 200%;
+		background-image: url('../img/base/papier.jpg');
+		background-size: 120%;
 		background-repeat: no-repeat;
 		background-position: center;
 	background-color: #52bbb4;
-	min-height: 90vh;
+	height: 50vh;
 
 	}
 
@@ -424,96 +423,169 @@ width: 100%;
 		background-color: #28338c;
 		margin: 0 auto;
 		position: relative;
-
+	height: 90vh;
 	}
 
+	#fbsection6 .paragraphe {
+		padding: 20px;
+	}
 
-	#fbsection7 {
-		background-image: url(../images/base/programme.jpg);
-		background-size: 120%;
+	#fbsection16 {
+		background-image: url('../img/base/programme.jpg');
+		background-size: contain;
 		background-repeat: no-repeat;
 		background-position: center;
 	background-color: #52bbb4;
-		min-height: 95vh;
+		height: 40vh;
 	}
 
 	#fbsection8 {
-		background-image: url(../images/base/affiche-mobile.jpg);
+		background-image: url('../img/base/affiche.jpg');
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center;
 	background-color: #fff;
-		min-height: 95vh;
+	height: 40vh;
 	}
 	#fbsection9 {
-		background-image: url(../images/base/market.jpg);
-		background-size: contain;
+		background-image: url('../img/base/market.jpg');
+		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center;
 	background-color: #fff;
-		min-height: 95vh;
+		height: 40vh;
 	}
 	#fbsection10 {
-		background-image: url(../images/base/carte.jpg);
-		background-size: 170%;
+		background-image: url('../img/base/carte.jpg');
+		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: right;
-	background-color: #c6c6c6;
-		min-height: 95vh;
+	background-color: #e1d0a8;
+	height: 40vh;
 	}
-
 	#fbsection11 {
-		background-image: url(../images/base/picto-mobile.jpg);
-		background-size: 130%;
-		background-repeat: no-repeat;
-		background-position: center;
-	background-color: #fff;
-		min-height: 95vh;
+
+	background-color : #fff;
+		height: 95vh;
+	}
+	.picto {
+		display: inline-flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-content: flex-start;
+	width: 100%;
+	padding: 0;
+	padding-top: 20px;
+
+
+	}
+	.picto img {
+		height: 11%;
+		padding: 10px;
+		align-self: center;
 	}
 
+	.paragraphe3 {
+		position: absolute;
+			padding: 20px;
+		text-align: left;
+bottom: 0;
+		display: block;
+	color: #28338c;
+		width: 100%;
+		top: 75%;
+
+	}
+
+	.paragraphe3 h2 {
+	margin: 0;
+	margin-left: 0;
+	margin-bottom: 20px;
+	}
+
+	.paragraphe3 p {
+		display: flex;
+
+		text-align: left;
+
+	}
 	#fbsection12 {
-		background-image: url(../images/base/navette.jpg);
+		background-image: url('../img/base/navette.jpg');
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: right;
 	background-color: #b4b4b4;
-		min-height: 95vh;
+		height: 95vh;
 	}
 
 	#fbsection13{
-		background-image: url(../images/base/panneau.jpg);
+		background-image: url('../img/base/panneau.jpg');
 		background-size: contain;
 		background-repeat: no-repeat;
 		background-position: center;
 	background-color: #fff;
-		min-height: 95vh;
+		height: 40vh;
 	}
 
 	#fbsection14 {
-		background-image: url(../images/base/facade.jpg);
-		background-size: 180%;
+		background-image: url('../img/base/facade.jpg');
+		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center;
-	background-color: #fff;
-		min-height: 95vh;
+	background-color: #b4b4b4;
+		height: 80vh;
 	}
 
 	#fbsection15 {
-		background-image: url(../images/base/signaletique.jpg);
-		background-size: 130%;
-		background-repeat: no-repeat;
-		background-position: center;
-	background-color: #fff;
-		min-height: 95vh;
-	}
-
-	#fbsection16 {
-		background-image: url(../images/base/mur.jpg);
+		background-image: url('../img/base/fond-signaletique.jpg');
 		background-size: contain;
 		background-repeat: no-repeat;
-		background-position: center;
-	background-color: #fff;
-		min-height: 95vh;
+		background-position: top;
+	background-color: #28338c;
+		height: 80vh;
+	}
+
+	#fbsection7 {
+		background-color : #28338c;
+		height: 95vh;
+		overflow: hidden;
+	}
+
+	#fbsection7 img {
+		width: 100%;
+		height: auto;
+
+	}
+	.paragraphe4 {
+		position: absolute;
+		width: 100%;
+		height: auto;
+			padding: 20px;
+		text-align: left;
+		display: block;
+	margin: 0;
+	bottom: 0;
+	color: #fff;
+	top: 65%;
+	transform: translateY(-50%);
+
+
+	}
+
+	.paragraphe4 h2 {
+margin-left: 0;
+
+	}
+	.paragraphe4 p {
+		display: flex;
+		justify-content: center;
+		text-align: left;
+		align-self: center;
+
+	}
+
+	.paragraphe2 h2 {
+		text-align: left;
 	}
 
 }

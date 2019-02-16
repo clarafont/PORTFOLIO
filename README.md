@@ -1,30 +1,29 @@
-# Mirror Effect
+# Morphing Background Shapes
 
-Mirror effect as seen around the Web lately, i.e. on [Corentin Fardeau's](http://www.corentinfardeau.fr/) and [Method's](http://method.digital/) website. The idea is to mirror an image and animate it within the context of a slideshow.
+A decorative background effect where SVG shapes morph and transform on scroll.
 
-[Article on Codrops](https://tympanus.net/codrops/?p=29492)
+![Morphing Background Shapes](https://tympanus.net/codrops/wp-content/uploads/2017/05/MorphingBackgroundShapes_Featured.jpg)
 
-[Demo](http://tympanus.net/Develppment/MirrorEffect/)
+[Article on Codrops](https://tympanus.net/codrops/?p=31190)
 
-## License
+[Demo](https://tympanus.net/Development/MorphingBackgroundShapes/)
 
-Integrate or build upon it for free in your personal or commercial projects. Don't republish, redistribute or sell "as-is". 
-
-Read more here: [License](http://tympanus.net/codrops/licensing/)
+This demo is kindly sponsored by [HelloSign API](http://synd.co/2pHxJny).
 
 ## Credits
 
 - [anime.js](http://anime-js.com/) by Julian Garnier
-- [imagesLoaded](http://imagesloaded.desandro.com/) by David DeSandro
-- Photos from [Unsplash.com](http://unsplash.com) and [Pexel.com](http://pexels.com), licensed under [CC0](https://creativecommons.org/publicdomain/zero/1.0/)
-- Sound waves from [Freepik.com](http://freepik.com), [license information](http://support.freepik.com/hc/en-us)
-- Veggies from [Freepik.com](http://www.freepik.com/index.php?goto=74&idfoto=969209), [license information](http://support.freepik.com/hc/en-us). See the license file within the images folder.
-- Background from [Freepik.com](http://www.freepik.com)
-- Play Button by [Madebyolive](http://www.flaticon.com/authors/madebyoliver) from [Flaticon.com](http://www.flaticon.com/free-icon/play-button_149125)
+- [scrollMonitor.js](https://github.com/stutrek/scrollMonitor) by Stu Kabakoff
+- Images copyright by [Jim Lepage](http://jimlepage.com/). Purchase here: [Abstract Paint Remix, Vol. 1](http://jimlepage.com/shop/abstract-paint-remix-vol-1)
+- Fonts: [Nexa Bold](http://www.fontfabric.com/nexa-free-font/) by Fontfabric and [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono) by Christian Robertson.
+- SVG shapes made with [Inkscape](https://inkscape.org/en/)
+
+## License
+This resource can be used freely if integrated or build upon in personal or commercial projects such as websites, web apps and web templates intended for sale. It is not allowed to take the resource "as-is" and sell it, redistribute, re-publish it, or sell "pluginized" versions of it. Free plugins built using this resource should have a visible mention and link to the original work. Always consider the licenses of all included libraries, scripts and images used.
 
 ## Misc
 
-Follow Codrops: [Twitter](http://www.twitter.com/codrops), [Facebook](https://www.facebook.com/codrops/), [Google+](https://plus.google.com/101095823814290637419), [GitHub](https://github.com/codrops), [Pinterest](http://www.pinterest.com/codrops/), [Instagram](https://www.instagram.com/codropsss/)
+Follow Codrops: [Twitter](http://www.twitter.com/codrops), [Facebook](http://www.facebook.com/codrops), [Google+](https://plus.google.com/101095823814290637419), [GitHub](https://github.com/codrops), [Pinterest](http://www.pinterest.com/codrops/), [Instagram](https://www.instagram.com/codropsss/)
 
 
 [© Codrops 2017](http://www.codrops.com)

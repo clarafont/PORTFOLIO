@@ -1,0 +1,310 @@
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.clearfix:before, .clearfix:after { content: ''; display: table; }
+.clearfix:after { clear: both; }
+
+html, body, section, .container{
+	height: 100%;
+}
+
+
+
+a {
+	color: #34495e;
+	text-decoration: none;
+	outline: none;
+}
+
+a:hover, a:focus {
+	color: #566473;
+}
+
+
+
+
+/* SVG wrap */
+.svg-wrap {
+	position: absolute;
+	width: 0px;
+	height: 0px;
+	overflow: hidden;
+}
+
+nav a {
+	position: absolute;
+	display: block;
+	outline: none;
+	text-align: left;
+	z-index: 1000;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+
+}
+#fbsection7 nav a {
+	display: block;
+	position: fixed;
+	outline: none;
+	z-index: 1000;
+	transform: rotate(-90deg);
+
+}
+#fbsection7 nav a.next {
+top: 90%;
+margin-right: 40px;
+}
+
+nav a.prev {
+	left: 0;
+	top: 50%;
+}
+
+
+nav a.next {
+right: 0;
+top: 50%;
+}
+
+nav a svg {
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+}
+
+/* Individual styles */
+
+/*--------------------*/
+/* Slit (inspired by Jam3) */
+/*--------------------*/
+
+.nav-slit .icon-wrap {
+	position: relative;
+	display: block;
+	padding: 45px 5px;
+	background-color: rgba (255, 255, 255, 0);
+}
+
+.nav-slit svg.icon {
+	-webkit-transition: -webkit-transform 0.3s 0.3s;
+	transition: transform 0.3s 0.3s;
+	fill: #fff;
+}
+
+.nav-slit div {
+	position: absolute;
+	top: 0;
+	width: 200px;
+	height: 100%;
+	background-color: #939a9f;
+	-webkit-transition: -webkit-transform 0.3s 0.3s;
+	transition: transform 0.3s 0.3s;
+	-webkit-perspective: 1000px;
+	perspective: 1000px;
+}
+
+.nav-slit a.prev div {
+	left: 0;
+	-webkit-transform: translateX(-100%);
+	transform: translateX(-100%);
+}
+
+.nav-slit a.next div {
+	right: 0;
+	text-align: right;
+	-webkit-transform: translateX(100%);
+	transform: translateX(100%);
+
+
+}
+
+.nav-slit h3 {
+	position: absolute;
+	top: 100%;
+	margin: 0;
+	padding: 0 20px;
+	width: 100%;
+	height: 30%;
+	color: #fff;
+	white-space: nowrap;
+	-webkit-transition: -webkit-transform 0.3s;
+	transition: transform 0.3s;
+	-webkit-transform: rotateX(-90deg);
+	transform: rotateX(-90deg);
+	-webkit-transform-origin: 50% 0;
+	transform-origin: 50% 0;
+	-webki-backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.nav-slit img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.nav-slit a:hover svg.icon {
+	-webkit-transition-delay: 0s;
+	transition-delay: 0s;
+}
+
+.nav-slit a.prev:hover svg.icon {
+	-webkit-transform: translateX(-100%);
+	transform: translateX(-100%);
+}
+
+.nav-slit a.next:hover svg.icon {
+	-webkit-transform: translateX(100%);
+	transform: translateX(100%);
+}
+
+.nav-slit a:hover div {
+	-webkit-transform: translateX(0);
+	transform: translateX(0);
+}
+
+.nav-slit a:hover h3 {
+	-webkit-transition-delay: 0.6s;
+	transition-delay: 0.6s;
+	-webkit-transform: rotateX(0deg);
+	transform: rotateX(0deg);
+}
+
+/*--------------------*/
+/* Fillpath (http://www.nizuka.fr/)*/
+/*--------------------*/
+
+
+.nav-fillpath a {
+	width: 50px;
+	height: 50px;
+}
+
+.nav-fillpath .icon-wrap {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.nav-fillpath a::before,
+.nav-fillpath a::after,
+.nav-fillpath .icon-wrap::before,
+.nav-fillpath .icon-wrap::after {
+	position: absolute;
+	left: 50%;
+	width: 3px;
+	height: 50%;
+	background: rgba(255, 255, 255, 0.3);
+	content: '';
+	-webkit-transition: -webkit-transform 0.3s;
+	transition: transform 0.3s;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.nav-fillpath .icon-wrap::before,
+.nav-fillpath .icon-wrap::after {
+	z-index: 100;
+	height: 0;
+	background: #fff;
+	-webkit-transition: height 0.3s, -webkit-transform 0.3s;
+	transition: height 0.3s, transform 0.3s;
+}
+
+.nav-fillpath a::before,
+.nav-fillpath .icon-wrap::before {
+	top: 50%;
+	-webkit-transform: translateX(-50%) rotate(-135deg);
+	transform: translateX(-50%) rotate(-135deg);
+	-webkit-transform-origin: 50% 0%;
+	transform-origin: 50% 0%;
+}
+
+.nav-fillpath a.next::before,
+.nav-fillpath a.next .icon-wrap::before {
+	-webkit-transform: translateX(-50%) rotate(135deg);
+	transform: translateX(-50%) rotate(135deg);
+	-webkit-transform-origin: 50% 0%;
+	transform-origin: 50% 0%;
+}
+
+.nav-fillpath a::after,
+.nav-fillpath .icon-wrap::after {
+	top: 50%;
+	-webkit-transform: translateX(-50%) rotate(-45deg);
+	transform: translateX(-50%) rotate(-45deg);
+	-webkit-transform-origin: 0 0;
+	transform-origin: 0 0;
+}
+
+.nav-fillpath a.next::after,
+.nav-fillpath a.next .icon-wrap::after {
+	-webkit-transform: translateX(-50%) rotate(45deg);
+	transform: translateX(-50%) rotate(45deg);
+	-webkit-transform-origin: 100% 0%;
+	transform-origin: 100% 0%;
+}
+
+.nav-fillpath h3 {
+	position: absolute;
+	padding: 10px;
+	top: 50%;
+	margin: 0;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 0.75em;
+	letter-spacing: 1px;
+	opacity: 0;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+	transition: transform 0.3s, opacity 0.3s;
+}
+
+.nav-fillpath a.prev h3 {
+	left: 100%;
+	-webkit-transform: translateY(-50%) translateX(-50%);
+	transform: translateY(-50%) translateX(-50%);
+}
+
+.nav-fillpath a.next h3 {
+
+padding-left: 40px;
+-webkit-transform: translateY(-50%) translateX(-50%);
+transform: translateY(-50%) translateX(-50%);
+
+}
+
+.nav-fillpath a:hover .icon-wrap::before,
+.nav-fillpath a:hover .icon-wrap::after {
+	height: 50%;
+}
+
+.nav-fillpath a:hover::before,
+.nav-fillpath a:hover .icon-wrap::before {
+	-webkit-transform: translateX(-50%) rotate(-125deg);
+	transform: translateX(-50%) rotate(-125deg);
+}
+
+.nav-fillpath a.next:hover::before,
+.nav-fillpath a.next:hover .icon-wrap::before {
+	-webkit-transform: translateX(-50%) rotate(125deg);
+	transform: translateX(-50%) rotate(125deg);
+}
+
+.nav-fillpath a:hover::after,
+.nav-fillpath a:hover .icon-wrap::after {
+	-webkit-transform: translateX(-50%) rotate(-55deg);
+	transform: translateX(-50%) rotate(-55deg);
+}
+
+.nav-fillpath a.next:hover::after,
+.nav-fillpath a.next:hover .icon-wrap::after {
+	-webkit-transform: translateX(-50%) rotate(55deg);
+	transform: translateX(-50%) rotate(55deg);
+}
+
+.nav-fillpath a:hover h3 {
+	opacity: 1;
+	-webkit-transform: translateY(-50%) translateX(0);
+	transform: translateY(-50%) translateX(0);
+}
