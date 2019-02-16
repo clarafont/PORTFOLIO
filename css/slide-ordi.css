@@ -3,12 +3,9 @@
 	overflow: hidden;
 top: 50%;
 	  transform: translateY(-50%);
+		height: 90vh;
 }
 
-.cbp-fwslider p{
-	text-align: center;
-	padding: 10px;
-}
 .cbp-fwslider ul {
 	margin: 0;
 	padding: 0;
@@ -32,7 +29,7 @@ top: 50%;
 	border: none;
 	display: block;
 	margin: 0 auto;
-	max-width: 850px;
+	max-width: 70%;
 }
 
 
@@ -41,12 +38,9 @@ top: 50%;
 	overflow: hidden;
 top: 50%;
 	  transform: translateY(-50%);
+		height: 80vh;
 }
 
-.cbp-fwslider-mob p{
-	text-align: center;
-	padding: 10px;
-}
 .cbp-fwslider-mob ul {
 	margin: 0;
 	padding: 0;
@@ -71,7 +65,15 @@ top: 50%;
 	border: none;
 	display: block;
 	margin: 0 auto;
-	max-width: 250px;
+	max-width: 20%;
+}
+
+.cbp-fwslider-mob nav {
+	display: none;
+}
+
+.cbp-fwslider nav {
+	display: none;
 }
 
 .cbp-fwdots {
@@ -109,16 +111,31 @@ top: 50%;
 
 
 @media (max-width: 1150px) {
+	.cbp-fwslider-mob {
+		position: relative;
+		overflow: hidden;
+	top: 50%;
+		  transform: translateY(-50%);
+			height: 80vh;
+	}
+	.cbp-fwslider {
+		position: relative;
+		overflow: hidden;
+	top: 50%;
+		  transform: translateY(-50%);
+			height: 45vh;
+	}
+
 .cbp-fwslider ul li > a img {
 	border: none;
 	display: block;
 	margin: 0 auto;
-	max-width: 85%;
+	max-width: 80%;
 }
 .cbp-fwslider-mob ul li > a img {
 	border: none;
 	display: block;
 	margin: 0 auto;
-	max-width: 50%;
+	max-width: 55%;
 }
 }

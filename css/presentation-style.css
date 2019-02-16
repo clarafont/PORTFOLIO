@@ -53,7 +53,7 @@ position: relative;
 #fbsection1 {
 	background-color: #1455bc;
 	margin: 0 auto;
-height: 95vh;
+height: 80vh;
  position: relative;
 }
 
@@ -422,6 +422,10 @@ height: 95%;
 		margin: 0;
 		padding: 20px;
 		color: #fff;
+		}
+
+		.linklist img {
+		  width: 40px;
 		}
 
 	}
