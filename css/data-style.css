@@ -227,7 +227,6 @@ height: 95vh;
 
 	.paragraphe p {
 		display: flex;
-		justify-content: center;
 		text-align: left;
 		align-self: center;
 

@@ -297,7 +297,6 @@ font-size: 0.8em;
 
 	.paragraphe p {
 		display: flex;
-		justify-content: center;
 		text-align: left;
 		align-self: center;
 
