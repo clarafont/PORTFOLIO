@@ -507,11 +507,7 @@ text-transform: uppercase;
 		display: block;
 		padding: 0.85em;
 	}
-	*,
-	*::after,
-	*::before {
-		cursor: none !important;
-	}
+
 
 	.cursor {
 		visibility: hidden;
