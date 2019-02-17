@@ -260,8 +260,14 @@ opacity: 0;
 
 	.paragraphe3 p {
 		display: flex;
+	}
 
-
+	#fbsection1 {
+		background-color: #4c4236;
+		margin: 0 auto;
+		position: relative;
+		overflow: hidden;
+		height: 115vh;
 	}
 
 	#fbsection2 {

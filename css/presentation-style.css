@@ -132,7 +132,6 @@ color: #1455bc;
 	background-color: #1455bc;
   height: 95vh;
   position: relative;
-
 }
 
 .paragraphe4 {
@@ -344,11 +343,16 @@ margin: 0 0 0 0.5em;
 
 
 	@media (max-width: 1024px) {
-
+		#fbsection1 {
+			background-color: #1455bc;
+			margin: 0 auto;
+		height: 95vh;
+		 position: relative;
+		}
 		#fbsection8 {
 		background-color: #1455bc;
 		margin: 0 auto;
-		height: 95vh;
+		height: 105vh;
 		position: relative;
 		}
 
@@ -426,6 +430,15 @@ height: 95%;
 
 		.linklist img {
 		  width: 40px;
+		}
+
+		#fbsection5 {
+			background-size: contain;
+			background-repeat: no-repeat;
+			background-position: center;
+			background-color: #1455bc;
+		  height: 110vh;
+		  position: relative;
 		}
 
 	}

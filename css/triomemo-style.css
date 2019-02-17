@@ -51,7 +51,6 @@ width: 70px;
 	position: relative;
 	height: 95vh;
 	overflow: hidden;
-
 }
 
 
@@ -175,6 +174,14 @@ height: 95vh;
 
 @media (max-width: 1150px)  {
 
+	#fbsection1 {
+		background-color: #8a5ea4;
+		margin: 0 auto;
+		position: relative;
+		height: 105vh;
+		overflow: hidden;
+	}
+
 	.paragraphe {
 		position: absolute;
 			top: 60%;
@@ -280,7 +287,7 @@ height: 95vh;
 		background-color: #8a5ea4;
 		margin: 0 auto;
 		position: relative;
-		height: 95vh
+		height: 115vh;
 	}
 
 
