@@ -25,6 +25,10 @@ height: 90vh;
 
 }
 
+.cbp-fwslider p {
+margin-top: -20px;
+}
+
 .cbp-fwslider ul li > a img {
 	position: relative;
 	border: none;
