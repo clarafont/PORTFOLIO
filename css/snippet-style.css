@@ -221,8 +221,6 @@ margin-left: -40px;
 margin-bottom: 20px;
 }
 #fbsection8 {
-
-
 background-color: #1fc2be;
 height: 95vh;
 	position: relative;
@@ -261,7 +259,11 @@ margin-bottom: 0;
 
 @media (max-width: 1150px) {
 
-
+	#fbsection8 {
+	background-color: #1fc2be;
+	height: 110vh;
+	position: relative;
+	}
 	#fbsection5 {
 	background-color: #222f8f;
 	height: 95vh;
