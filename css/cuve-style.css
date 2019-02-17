@@ -63,9 +63,7 @@ height: 95vh;
 	  transform: translateY(-50%);
 		padding: 300px;
 	text-align: left;
-
 	display: block;
-
 color: #fff;
 	width: 100%;
 
@@ -190,7 +188,13 @@ background-color: #fff;
 
 
 @media (max-width: 1150px) {
-
+	#fbsection1 {
+		background-color: #312783;
+		margin: 0 auto;
+		position: relative;
+	overflow: hidden;
+	height: 105vh;
+	}
 
 .paragraphe h2 {
 	margin-left: 0px;
@@ -201,17 +205,16 @@ background-color: #fff;
 }
 
 	.paragraphe {
-		position: absolute;
-		  top: 60%;
-		  transform: translateY(-50%);
-			padding: 40px;
-		text-align: left;
-		justify-content: center;
-		display: block;
-	margin: 0;
-	color: #fff;
-		width: 100%;
-font-size: 0.8em;
+position: absolute;
+top: 60%;
+transform: translateY(-50%);
+padding: 40px;
+text-align: left;
+justify-content: center;
+display: block;
+margin: 0;
+color: #fff;
+width: 100%;
 
 	}
 
