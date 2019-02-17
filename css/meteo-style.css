@@ -127,11 +127,9 @@ margin-bottom: 20px;
 
 
 #fbsection3 {
-
 	background-size: contain;
 	background-repeat: no-repeat;
 background-color: #60C7A0;
-/*background: linear-gradient(to top, #ffffff 20%, #60C7A0 80%, #ffffff 80%);*/
 	background-position: left;
 height: 95vh;
 	position: relative;
@@ -241,7 +239,14 @@ top: 50%;
 
 @media (max-width: 1150px) {
 
-
+	#fbsection3 {
+		background-size: contain;
+		background-repeat: no-repeat;
+	background-color: #60C7A0;
+		background-position: left;
+	height: 105vh;
+		position: relative;
+	}
 	#fbsection1 {
 		background-color: #19192e;
 		margin: 0 auto;
@@ -363,7 +368,7 @@ opacity: 0;
 	#fbsection7 {
 
 		background-color: #19192e;
-		height: 110vh;
+		height: 120vh;
 	}
 
 	#fbsection2 {
