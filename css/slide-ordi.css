@@ -38,7 +38,7 @@ top: 50%;
 	overflow: hidden;
 top: 50%;
 	  transform: translateY(-50%);
-		height: 80vh;
+		height: 85vh;
 }
 
 .cbp-fwslider-mob ul {
@@ -65,7 +65,7 @@ top: 50%;
 	border: none;
 	display: block;
 	margin: 0 auto;
-	max-width: 20%;
+	max-width: 18%;
 }
 
 .cbp-fwslider-mob nav {
