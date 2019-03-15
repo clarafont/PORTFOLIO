@@ -1,0 +1,398 @@
+/* Set all parents to full height */
+html, body,
+.container,
+.cbp-fbscroller,
+.cbp-fbscroller section {
+	height: 95%;
+margin: 0;
+}
+
+/* background-attachment does the trick */
+.cbp-fbscroller section {
+	position: relative;
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.no-touch .cbp-fbscroller section {
+	background-attachment: fixed;
+}
+
+/* header */
+
+header {
+min-height: 15vh;
+position: fixed;
+text-align: center;
+top: 0;
+left: 0;
+right: 0;
+padding: 1em;
+z-index: 5;
+color: #000000;
+}
+
+.logo_header {
+display: block;
+margin: 25px;
+}
+
+.logo_header img {
+width: 70px;
+}
+
+
+
+
+#fbsection1 {
+	background-color: #00A9C3;
+	margin: 0 auto;
+	position: relative;
+overflow: hidden;
+height: 95vh;
+}
+
+
+.paragraphe {
+	position: absolute;
+	  top: 60%;
+	  transform: translateY(-50%);
+	text-align: left;
+	display: block;
+color: #fff;
+	width: 55%;
+	left: 22.5%;
+
+}
+
+.paragraphe h2 {
+margin: 0;
+margin-left: -40px;
+margin-bottom: 40px;
+}
+
+.paragraphe p {
+	display: flex;
+
+	text-align: left;
+
+}
+.legende {
+	margin-left: -20px;
+	margin-top: 20px;
+}
+
+
+#fbsection2 {
+	background-image: url('../img/banana/logo-banane.svg');
+	background-size: 40%;
+	background-repeat: no-repeat;
+	background-position: center;
+background-color: #00A9C3;
+height: 90vh;
+}
+
+#fbsection12 {
+	background-image: url('../img/banana/fond-point.jpg');
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: center;
+background-color: #FFD84A;
+height: 90vh;
+}
+
+#fbsection3 {
+	background-size: contain;
+	background-repeat: no-repeat;
+background-color: #fedb6d;
+	background-position: center;
+height: 110vh;
+	position: relative;
+	display: flex;
+	align-items: flex-end;
+}
+
+video {
+	width: 100%;
+display: block;
+margin: 0 auto;
+}
+
+#fbsection4 {
+background-color: rgb(0,169,195);
+height: 120vh;
+display: flex;
+align-items: center;
+}
+
+#fbsection11 {
+background-color: rgb(0,169,195);
+height: 135vh;
+display: flex;
+align-items: center;
+}
+
+.zoom img {
+width: 75%;
+margin: 0 auto;
+position: relative;
+display: block;
+margin: 0 auto;
+}
+
+
+#fbsection10 {
+background-color: #D8DDE4;
+height: 80vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.typo img {
+width: 60%;
+position: relative;
+display: block;
+margin: 0 auto;
+}
+
+#fbsection5 {
+background-color: #0040d5;
+height: 155vh;
+display: flex;
+align-items: center;
+}
+
+#fbsection6 {
+background-color: #0040d5;
+height: 225vh;
+position: relative;
+display: flex;
+align-items: flex-end;
+justify-content: center;
+}
+
+
+#fbsection7 {
+background-color: #00A9C3;
+height: 95vh;
+}
+
+.paragraphe5 {
+	position: absolute;
+	  top: 50%;
+	  transform: translateY(-50%);
+	text-align: left;
+	display: block;
+color: #fff;
+	width: 55%;
+	left: 22.5%;
+
+}
+.paragraphe5 h2 {
+margin: 0;
+margin-left: -40px;
+margin-bottom: 20px;
+}
+
+#fbsection8 {
+background-color: #fedb6d;
+height: 90vh;
+position: relative;
+display: flex;
+align-items: flex-end;
+}
+.mobile-video {
+	width: 70%;
+	display: block;
+	margin: 0 auto;
+}
+
+#fbsection9 {
+background-color: #ffd84a;
+background-position: center;
+height: 105vh;
+position: relative;
+display: flex;
+align-items: center;
+}
+
+
+@media (max-width: 1150px) {
+
+
+.paragraphe h2 {
+margin-left: 0px;
+margin-bottom: 10px;
+}
+
+	.paragraphe {
+	position: absolute;
+	top: 60%;
+	transform: translateY(-50%);
+	padding: 40px;
+	text-align: left;
+	justify-content: center;
+	display: block;
+	margin: 0;
+	color: #fff;
+	width: 100%;
+	left: 0;
+	}
+
+	.paragraphe p {
+	display: flex;
+	justify-content: center;
+	text-align: left;
+	align-self: center;
+	}
+
+
+	.paragraphe5 {
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		padding: 40px;
+		text-align: left;
+		justify-content: center;
+		display: block;
+		margin: 0;
+		color: #fff;
+		width: 100%;
+		left: 0;
+	}
+
+	.paragraphe5 h2 {
+		margin: 0;
+		margin-bottom: 10px;
+	}
+
+	#fbsection7 {
+		background-color: #222f8f;
+		height: 70vh;
+	}
+
+	.legende {
+		margin-left: 0;
+	}
+	#fbsection2 {
+		background-image: url('../img/banana/logo-banane.svg');
+		background-size: 50%;
+		background-repeat: no-repeat;
+		background-position: center;
+	background-color: #00A9C3;
+	height: 50vh;
+	}
+
+	#fbsection12 {
+		background-size: 55%;
+		background-repeat: no-repeat;
+		background-position: center;
+	background-color: #00A9C3;
+	height: 60vh;
+	}
+
+	#fbsection3 {
+		background-size: contain;
+		background-repeat: no-repeat;
+	background-color: #fedb6d;
+		background-position: center;
+	height: 40vh;
+		position: relative;
+		display: flex;
+		justify-content: flex-end;
+		align-items: flex-end;
+	}
+
+	video {
+		width: 100%;
+	display: block;
+	margin: 0 auto;
+	}
+
+	#fbsection4 {
+	background-color: #00a9c3;
+	height: 45vh;
+	display: flex;
+	align-items: center;
+	}
+
+	#fbsection11 {
+	background-color: #00a9c3;
+	height: 55vh;
+	display: flex;
+	align-items: center;
+	}
+
+	.zoom img {
+	width: 85%;
+	margin: 0 auto;
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	}
+
+	#fbsection10 {
+	background-color: #D8DDE4;
+	height: 40vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	}
+
+	.typo img {
+	width: 80%;
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	}
+
+	#fbsection5 {
+	background-color: #0040d5;
+	height: 55vh;
+	display: flex;
+	align-items: center;
+	}
+
+	#fbsection6 {
+	background-color: #0040d5;
+	position: relative;
+	height: 86vh;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+
+	}
+
+
+	#fbsection7 {
+	background-color: #00A9C3;
+	height: 95vh;
+	}
+
+
+	#fbsection8 {
+	background-color: #fedb6d;
+	height: 40vh;
+	position: relative;
+	display: flex;
+	align-items: flex-end;
+	}
+	.mobile-video {
+		width: 100%;
+		display: block;
+		margin: 0 auto;
+	}
+
+	#fbsection9 {
+	background-color: #ffd84a;
+	background-position: center;
+	height: 45vh;
+	position: relative;
+	height: 50vh;
+	display: flex;
+	align-items: center;
+	}
+
+}
