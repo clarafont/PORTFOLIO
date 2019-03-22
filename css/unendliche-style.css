@@ -1,0 +1,588 @@
+/* Set all parents to full height */
+html, body,
+.container,
+.cbp-fbscroller,
+.cbp-fbscroller section {
+	height: 95%;
+margin: 0;
+}
+
+/* background-attachment does the trick */
+.cbp-fbscroller section {
+	position: relative;
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.no-touch .cbp-fbscroller section {
+	background-attachment: fixed;
+}
+
+/* header */
+
+header {
+min-height: 15vh;
+position: fixed;
+text-align: center;
+top: 0;
+left: 0;
+right: 0;
+padding: 1em;
+z-index: 5;
+color: #000000;
+}
+
+.logo_header {
+display: block;
+margin: 25px;
+}
+
+.logo_header img {
+width: 70px;
+}
+
+
+.video-facebook {
+	margin-top: 3em;
+}
+
+#fbsection1 {
+	background-color: #D8DDE4;
+	margin: 0 auto;
+	position: relative;
+overflow: hidden;
+height: 95vh;
+}
+
+
+.paragraphe {
+	position: absolute;
+	  top: 60%;
+	  transform: translateY(-50%);
+	text-align: left;
+	display: block;
+color: #232323;
+	width: 55%;
+	left: 22.5%;
+
+}
+
+.paragraphe h2 {
+margin: 0;
+margin-left: -40px;
+margin-bottom: 40px;
+}
+
+.paragraphe p {
+	display: flex;
+	text-align: left;
+
+}
+.legende {
+	margin-left: -20px;
+	margin-top: 20px;
+}
+
+
+#fbsection2 {
+	background-image: url('../img/unendliche/id-unendliche.svg');
+	background-attachment: scroll;
+	background-size: contain;
+background-color: #D8DDE4;
+height: 90vh;
+display: flex;
+position: relative;
+align-items: flex-start;
+justify-content: flex-end;
+}
+
+.paragraphe-logo {
+	position: absolute;
+text-align: left;
+display: block;
+width: 50%;
+padding : 5.5em 5.5em 5.5em 0em;
+color: #232323;
+}
+
+#fbsection12 {
+background-color: #169eda;
+height: 130vh;
+position: relative;
+display: flex;
+flex-direction: column;
+
+
+}
+
+.paragraphe-listeners-site {
+	display: block;
+	margin: 4em;
+	text-align: center;
+color: #fff;
+}
+
+.paragraphe-listeners-site a {
+	color: #fff;
+}
+.paragraphe-listeners-site a:hover{
+	color: #075f9e;
+}
+.site-listeners {
+	width: 80%;
+	display: block;
+	margin: 0 auto;
+}
+
+#fbsection3 {
+
+background-color: #169eda;
+height: 80vh;
+margin: 0 auto;
+position: relative;
+
+}
+
+
+.paragraphe-2 {
+	position: absolute;
+	  top: 50%;
+	  transform: translateY(-50%);
+	text-align: left;
+	display: block;
+color: #fff;
+	width: 55%;
+	left: 22.5%;
+
+}
+
+.paragraphe-2 h2 {
+margin: 0;
+margin-left: -40px;
+margin-bottom: 40px;
+}
+
+.paragraphe-2 p {
+	display: flex;
+	text-align: left;
+
+}
+
+#fbsection13 {
+height: auto;
+margin: 0 auto;
+position: relative;
+
+}
+.couv-facebook {
+	width: 100%;
+display: block;
+margin: 0 auto;
+}
+
+#fbsection14 {
+	background-color: #169eda;
+	height: 90vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.paragraphe-listeners-video {
+	margin: 3em;
+width: 30%;
+	color: #fff;
+}
+
+#fbsection4 {
+background-color: #169eda;
+height: 80vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.img-listeners img{
+	width: 80%;
+	position: relative;
+	display: block;
+	margin: 0 auto;
+}
+
+#fbsection11 {
+background-color: #169eda;
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+#fbsection10 {
+background-color: #D8DDE4;
+height: 155vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.img-site img{
+width: 70%;
+position: relative;
+display: block;
+margin: 0 auto;
+}
+
+.paragraphe-site {
+	width: 60%;
+	text-align: center;
+	color: #232323;
+}
+
+.paragraphe-site a {
+	color: #232323;
+
+}
+
+#fbsection5 {
+background-color: #169eda;
+height: 70vh;
+display: flex;
+align-items: center;
+}
+.livret1 {
+width: 100%;
+
+}
+
+
+#fbsection6 {
+background-color: #169eda;
+height: 80vh;
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.livret-int {
+	width: 100%;
+}
+.paragraphe-listeners-livret {
+	text-align: center;
+	color: #fff;
+	margin-bottom: 3em;
+}
+
+#fbsection7 {
+background-color: #169eda;
+background-position: center;
+height: 130vh;
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+#fbsection8 {
+background-color: #169eda;
+height: 110vh;
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.carte-bdx {
+	width: 65%;
+}
+
+.paragraphe-listeners-carte {
+	margin: 4em;
+	color: #fff;
+	text-align:right;
+}
+
+.carte-france {
+	width: 60%;
+}
+
+@media (max-width: 1150px) {
+
+
+.paragraphe h2 {
+margin-left: 0px;
+margin-bottom: 10px;
+}
+
+	.paragraphe {
+	position: absolute;
+	top: 60%;
+	transform: translateY(-50%);
+	padding: 40px;
+	text-align: left;
+	justify-content: center;
+	display: block;
+	margin: 0;
+	color: #232323;
+	width: 100%;
+	left: 0;
+	}
+
+	.paragraphe p {
+	display: flex;
+	justify-content: center;
+	text-align: left;
+	align-self: center;
+	}
+
+
+
+	#fbsection7 {
+		background-color: #169eda;
+		background-position: center;
+		height: 80vh;
+		position: relative;
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+	}
+
+	.legende {
+		margin-left: 0;
+	}
+	#fbsection2 {
+	background-image: url('../img/unendliche/id-unendliche.svg');
+	background-attachment: scroll;
+	background-size: contain;
+	background-color: #D8DDE4;
+	height: 90vh;
+	display: flex;
+	position: relative;
+	align-items: flex-start;
+	justify-content: flex-end;
+	}
+
+	.paragraphe-logo {
+		position: absolute;
+	text-align: left;
+	display: block;
+	width: 100%;
+padding: 2em;
+	color: #232323;
+	top: 30%;
+
+	}
+
+	#fbsection12 {
+	background-color: #169eda;
+	height: 70vh;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	}
+
+	.paragraphe-listeners-site {
+	display: block;
+	padding: 2em;
+	text-align: center;
+	color: #fff;
+	width: 100%;
+	margin: 0;
+	}
+
+	.paragraphe-listeners-site a {
+		color: #fff;
+	}
+	.paragraphe-listeners-site a:hover{
+		color: #075f9e;
+	}
+	.site-listeners {
+		width: 90%;
+		display: block;
+		margin: 0 auto;
+	}
+
+	#fbsection3 {
+
+	background-color: #169eda;
+	height: 80vh;
+	margin: 0 auto;
+	position: relative;
+		display: flex;
+	justify-content: center;
+	align-items: center;
+	}
+
+
+	.paragraphe-2 {
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		padding: 40px;
+		text-align: left;
+		justify-content: center;
+		display: block;
+		margin: 0;
+		color: #fff;
+		width: 100%;
+		left: 0;
+
+	}
+
+	.paragraphe-2 h2 {
+	margin: 0;
+	margin-bottom: 10px;
+	}
+
+	.paragraphe-2 p {
+		display: flex;
+		text-align: left;
+
+	}
+
+	#fbsection13 {
+	height: auto;
+	margin: 0 auto;
+	position: relative;
+
+	}
+	.couv-facebook {
+		width: 100%;
+	display: block;
+	margin: 0 auto;
+	}
+
+	#fbsection14 {
+		background-color: #169eda;
+		height: 90vh;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.paragraphe-listeners-video {
+		margin: 0;
+		padding: 2em;
+	width: 100%;
+		color: #fff;
+		text-align: center;
+	}
+
+	.listeners-post {
+		width: 90%;
+		margin: 3em;
+		margin: 0 auto;
+	}
+	#fbsection4 {
+	background-color: #169eda;
+	height: 40vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	}
+
+	.img-listeners img{
+		width: 100%;
+		position: relative;
+		display: block;
+		margin: 0 auto;
+	}
+
+	#fbsection11 {
+	background-color: #169eda;
+	height: 40vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	}
+
+
+	#fbsection10 {
+	background-color: #D8DDE4;
+	height: 110vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	}
+
+	.img-site img{
+	width: 90%;
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	}
+
+	.paragraphe-site {
+		width: 100%;
+		text-align: center;
+		color: #232323;
+		padding: 2em;
+	}
+
+	.paragraphe-site a {
+		color: #232323;
+
+	}
+
+	#fbsection5 {
+	background-color: #169eda;
+	height: 30vh;
+	display: flex;
+	align-items: center;
+	}
+	.livret1 {
+	width: 100%;
+
+	}
+
+
+	#fbsection6 {
+	background-color: #169eda;
+	height: 40vh;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	}
+
+	.livret-int {
+		width: 100%;
+	}
+	.paragraphe-listeners-livret {
+		text-align: center;
+		color: #fff;
+		margin-bottom: 3em;
+	}
+
+
+	#fbsection8 {
+	background-color: #169eda;
+	height: 90vh;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	}
+	.carte-bdx {
+		width: 100%;
+	}
+
+	.paragraphe-listeners-carte {
+		margin: 0;
+		padding: 2em;
+		color: #fff;
+		text-align:center;
+	}
+
+	.carte-france {
+		width: 100%;
+	}
+}
