@@ -3,7 +3,7 @@
 	overflow: hidden;
 top: 50%;
 	  transform: translateY(-50%);
-		height: 90vh;
+	height: 95vh;
 }
 
 .cbp-fwslider ul {
@@ -79,6 +79,7 @@ top: 50%;
 .cbp-fwdots {
 	position: absolute;
 	bottom: 0px;
+	padding: 1.5em;
 	white-space: nowrap;
 	text-align: center;
 	width: 100%;
