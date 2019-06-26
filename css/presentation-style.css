@@ -339,7 +339,10 @@ font-size: 1.25em;
 margin: 0 0 0 0.5em;
 }
 
-
+.legende {
+	margin-left: -2em;
+	margin-top: 2em;
+}
 
 
 	@media (max-width: 1024px) {
