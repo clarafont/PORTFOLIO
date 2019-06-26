@@ -1,0 +1,599 @@
+/* Set all parents to full height */
+html, body,
+.container,
+.cbp-fbscroller,
+.cbp-fbscroller section {
+	height: 95%;
+margin: 0;
+}
+
+/* background-attachment does the trick */
+.cbp-fbscroller section {
+	position: relative;
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.no-touch .cbp-fbscroller section {
+	background-attachment: fixed;
+}
+
+/* header */
+
+header {
+min-height: 15vh;
+position: fixed;
+text-align: center;
+top: 0;
+left: 0;
+right: 0;
+padding: 1em;
+z-index: 5;
+color: #000000;
+}
+
+.logo_header {
+display: block;
+margin: 25px;
+}
+
+.logo_header img {
+width: 70px;
+}
+
+
+
+
+#fbsection1 {
+	background-color: #202f92;
+	margin: 0 auto;
+	position: relative;
+overflow: hidden;
+height: 95vh;
+}
+
+
+.paragraphe {
+	position: absolute;
+	  top: 60%;
+	  transform: translateY(-50%);
+	text-align: left;
+	display: block;
+color: #fff;
+	width: 55%;
+	left: 22.5%;
+
+}
+
+.paragraphe h2 {
+margin: 0;
+margin-left: -40px;
+margin-bottom: 40px;
+}
+
+.paragraphe p {
+	display: flex;
+
+	text-align: left;
+
+}
+.legende {
+	margin-left: -20px;
+	margin-top: 20px;
+}
+
+
+#fbsection2 {
+	background-image: url('../img/guillemets/anim-logo.gif');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+background-color: #0f218b;
+height: 90vh;
+}
+
+#fbsection12 {
+	background-image: url('../img/guillemets/batiments.gif');
+	background-size: 80%;
+	background-repeat: no-repeat;
+	background-position: center;
+background-color: #fbfbfb;
+height: 95vh;
+}
+
+#fbsection3 {
+background-color: #164092;
+height: 80vh;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+}
+
+.app {
+	height: 100%;
+}
+
+video {
+	width: 100%;
+display: block;
+margin: 0 auto;
+}
+
+#fbsection4 {
+background-color: #164092;
+height: 90vh;
+display: flex;
+align-items: center;
+justify-content: center;
+overflow: hidden;
+}
+
+#fbsection11 {
+background-color: #164092;
+height: 90vh;
+display: flex;
+align-items: center;
+justify-content: center;
+overflow: hidden;
+}
+
+#fbsection13 {
+background-color: #164092;
+height: 90vh;
+display: flex;
+align-items: center;
+justify-content: center;
+overflow: hidden;
+}
+#fbsection14 {
+background-color: #164092;
+height: 110vh;
+display: flex;
+align-items: center;
+justify-content: center;
+overflow: hidden;
+}
+
+
+#fbsection10 {
+background-color: #164092;
+height: 70vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+overflow: hidden;
+}
+
+.typo img {
+width: 60%;
+position: relative;
+display: block;
+margin: 0 auto;
+}
+
+#fbsection5 {
+background-color: #0040d5;
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+overflow: hidden;
+}
+.depliant {
+	height: 100%;
+}
+
+#fbsection6 {
+background-color: #0040d5;
+height: 100vh;
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+overflow: hidden;
+}
+
+
+.paragraphe5 {
+	position: absolute;
+	  top: 50%;
+	  transform: translateY(-50%);
+	text-align: left;
+	display: block;
+color: #fff;
+	width: 55%;
+	left: 22.5%;
+
+}
+.paragraphe5 h2 {
+margin: 0;
+margin-left: -40px;
+margin-bottom: 20px;
+}
+
+#fbsection8 {
+background-color: #2a4d9e;
+height: 100vh;
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+overflow: hidden;
+}
+
+#fbsection9 {
+background-color: #2a4d9e;
+background-position: center;
+height: 90vh;
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+overflow: hidden;
+}
+#fbsection19 {
+background-color: #2a4d9e;
+background-position: center;
+height: 90vh;
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+overflow: hidden;
+}
+#fbsection15 {
+background-image: url('../img/guillemets/affiche.jpg');
+background-color: #2a4d9e;
+background-position: center;
+background-size: cover;
+height: 105vh;
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+overflow: hidden;
+}
+#fbsection16 {
+background-color: #2a4d9e;
+background-position: center;
+height: 100vh;
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+overflow: hidden;
+}
+.affiche {
+	width: 100%;
+}
+
+#fbsection17 {
+background-color: #2a4d9e;
+background-position: center;
+height: 97vh;
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+#fbsection18 {
+background-color: #2a4d9e;
+background-position: center;
+height: 108vh;
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.paragraphe6 {
+	position: absolute;
+	  top: 50%;
+	  transform: translateY(-50%);
+	text-align: left;
+	display: block;
+color: #fff;
+	width: 55%;
+	left: 40%;
+
+}
+.paragraphe6 h2 {
+margin: 0;
+margin-left: -40px;
+margin-bottom: 20px;
+}
+
+#fbsection7 {
+background-color: #164094;
+height: 110vh;
+position: relative;
+display: flex;
+align-items: center;
+justify-content: flex-start;
+overflow: hidden;
+}
+
+.tote-bag {
+height: 110%;
+margin-left: -29em;
+}
+
+@media (max-width: 1150px) {
+
+	#fbsection1 {
+		background-color: #202f92;
+		margin: 0 auto;
+		position: relative;
+	overflow: hidden;
+	height: 100vh;
+	}
+	.legende {
+		margin-left: 0px;
+		text-align: left;
+	}
+
+
+.paragraphe h2 {
+margin-left: 0px;
+margin-bottom: 10px;
+}
+
+	.paragraphe {
+	position: absolute;
+	top: 60%;
+	transform: translateY(-50%);
+	padding: 40px;
+	text-align: left;
+	justify-content: center;
+	display: block;
+	margin: 0;
+	color: #fff;
+	width: 100%;
+	left: 0;
+	}
+
+	.paragraphe p {
+	display: flex;
+	text-align: left;
+	align-self: center;
+	}
+
+
+	.paragraphe5 {
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		padding: 40px;
+		text-align: left;
+		justify-content: center;
+		display: block;
+		margin: 0;
+		color: #fff;
+		width: 100%;
+		left: 0;
+	}
+
+	.paragraphe5 h2 {
+		margin: 0;
+		margin-bottom: 10px;
+		font-size: 1.9em;
+	}
+
+	#fbsection7 {
+		background-color: #164094;
+		height: 150vh;
+		position: relative;
+		display: flex;
+		align-items: flex-start;
+		justify-content: flex-end;
+		overflow: hidden;
+	}
+
+	.tote-bag {
+	width: 180%;
+	height: auto;
+	margin-left: 0;
+	}
+
+	.paragraphe6 {
+		position: absolute;
+		  top: 70%;
+		  transform: translateY(-50%);
+		text-align: left;
+		display: block;
+	color: #fff;
+		width: 70%;
+		left: 20%;
+
+	}
+	.paragraphe6 h2 {
+	margin: 0;
+	margin-left: -40px;
+	margin-bottom: 20px;
+	}
+
+	.legende {
+		margin-left: 0;
+	}
+	#fbsection2 {
+background-image: url('../img/guillemets/anim-logo.gif');
+		background-size: 170%;
+		background-repeat: no-repeat;
+		background-position: center;
+	background-color: #00A9C3;
+	height: 50vh;
+	}
+
+	#fbsection12 {
+		background-size: 120%;
+		background-repeat: no-repeat;
+		background-position: center;
+	background-color: #fbfbfb;
+	height: 40vh;
+	}
+
+	#fbsection3 {
+		background-size: contain;
+		background-repeat: no-repeat;
+	background-color: #fedb6d;
+		background-position: center;
+	height: 40vh;
+		position: relative;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	video {
+		width: 100%;
+	display: block;
+	margin: 0 auto;
+	}
+
+	#fbsection4 {
+	background-color: #00a9c3;
+	height: 35vh;
+	display: flex;
+	align-items: center;
+	justify-content:flex-end;
+	}
+
+	#fbsection11 {
+	background-color: #00a9c3;
+	height: 35vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	}
+
+	.zoom img {
+	width: 85%;
+	margin: 0 auto;
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	}
+
+	#fbsection10 {
+	background-color: #164092;
+	height: 40vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	}
+
+	.typo img {
+	width: 80%;
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	}
+
+	#fbsection5 {
+	background-color: #0040d5;
+	height: 38vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	}
+
+	#fbsection6 {
+	background-color: #0040d5;
+	position: relative;
+	height: 38vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	}
+
+	#fbsection8 {
+	background-color: #fedb6d;
+	height: 40vh;
+	position: relative;
+	display: flex;
+	align-items: flex-end;
+	}
+
+	#fbsection9 {
+	background-color: #ffd84a;
+	background-position: center;
+	height: 45vh;
+	position: relative;
+	height: 50vh;
+	display: flex;
+	align-items: center;
+	}
+	#fbsection13 {
+	background-color: #164092;
+	height: 40vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+	}
+	#fbsection14 {
+	background-color: #164092;
+	height: 50vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+	}
+	#fbsection15 {
+	background-image: url('../img/guillemets/affiche-mobile.jpg');
+	background-color: #2a4d9e;
+	background-position: center;
+	background-size: cover;
+	height: 90vh;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+	}
+	#fbsection16 {
+	background-color: #2a4d9e;
+	background-position: center;
+	height: 40vh;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+	}
+	.affiche {
+		width: 100%;
+	}
+	#fbsection17 {
+	background-color: #2a4d9e;
+	background-position: center;
+	height: 30vh;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	}
+	#fbsection18 {
+	background-color: #2a4d9e;
+	background-position: center;
+	height: 35vh;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	}
+	#fbsection19 {
+	background-color: #2a4d9e;
+	background-position: center;
+	height: 40vh;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+	}
+}
